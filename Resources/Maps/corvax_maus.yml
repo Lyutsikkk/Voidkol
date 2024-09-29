@@ -93485,7 +93485,7 @@ entities:
 
         [color=#228B22]░██░██[color=#d4af37]██[/color]░░░██░░░░[/color]        [head=3]Бланк документа[/head]
 
-        [color=#228B22]░░█░██░██░░██░█░░[/color]                [head=3]NanoTrasen[/head]
+        [color=#228B22]░░█░██░██░░██░█░░[/color]                [head=3]Voidkol[/head]
 
         [color=#228B22]░░░░██░░[color=#d4af37]██[/color]░██░██░[/color]        [bold] Maus Station ЦК-СБ[/bold]
 
@@ -93878,7 +93878,7 @@ entities:
 
         [color=#228B22]░██░██[color=#d4af37]██[/color]░░░██░░░░[/color]        [head=3]Бланк документа[/head]
 
-        [color=#228B22]░░█░██░██░░██░█░░[/color]                [head=3]NanoTrasen[/head]
+        [color=#228B22]░░█░██░██░░██░█░░[/color]                [head=3]Voidkol[/head]
 
         [color=#228B22]░░░░██░░[color=#d4af37]██[/color]░██░██░[/color]        [bold] Maus Station ЦК-СБ[/bold]
 
@@ -93986,7 +93986,7 @@ entities:
 
         [color=#228B22]░██░██[color=#d4af37]██[/color]░░░██░░░░[/color]        [head=3]Бланк документа[/head]
 
-        [color=#228B22]░░█░██░██░░██░█░░[/color]                [head=3]NanoTrasen[/head]
+        [color=#228B22]░░█░██░██░░██░█░░[/color]                [head=3]Voidkol[/head]
 
         [color=#228B22]░░░░██░░[color=#d4af37]██[/color]░██░██░[/color]        [bold] Maus Station ЦК-СБ[/bold]
 
@@ -109324,13 +109324,6 @@ entities:
     components:
     - type: Transform
       pos: 12.5,-8.5
-      parent: 2
-- proto: SpawnPointLawyer
-  entities:
-  - uid: 1980
-    components:
-    - type: Transform
-      pos: -20.5,-26.5
       parent: 2
 - proto: SpawnPointLibrarian
   entities:

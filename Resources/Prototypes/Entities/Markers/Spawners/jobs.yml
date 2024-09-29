@@ -233,17 +233,17 @@
       - state: green
       - state: librarian
 
-- type: entity
-  id: SpawnPointLawyer
-  parent: SpawnPointJobBase
-  name: lawyer
-  components:
-  - type: SpawnPoint
-    job_id: IAA # Corvax-IAA: Lawyer replaced with IAA
-  - type: Sprite
-    layers:
-      - state: green
-      - state: lawyer
+#- type: entity
+#  id: SpawnPointLawyer
+#  parent: SpawnPointJobBase
+#  name: lawyer
+#  components:
+#  - type: SpawnPoint
+#    job_id: IAA # Corvax-IAA: Lawyer replaced with IAA
+#  - type: Sprite
+#    layers:
+#      - state: green
+#      - state: lawyer
 
 - type: entity
   id: SpawnPointJanitor

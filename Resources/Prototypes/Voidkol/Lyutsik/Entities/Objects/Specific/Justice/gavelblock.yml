@@ -1,0 +1,19 @@
+- type: entity
+  parent: BaseItem
+  id: GavelBlock
+  name: подставка для молота
+  description: Блок из твердой древесины, по которому при ударе молотком излучается аура власти.
+  components:
+    - type: Sprite
+      sprite: Voidkol/Lyutsik/Objects/Specific/Justice/gavelblock.rsi
+      layers:
+        - state: icon
+    - type: Item
+      size: Small
+    - type: Clickable
+    - type: EmitSoundOnInteractUsing
+      sound:
+        path: /Audio/Voidkol/Lyutsik/Items/gavel.ogg
+      whitelist:
+        tags:
+          - Gavel

@@ -437,26 +437,26 @@
       prototypes: [ VisitorJanitor, VisitorJanitorAlt ]
       roleLoadout: [ RoleSurvivalStandard ]
 
-- type: randomHumanoidSettings
-  id: VisitorLawyer
-  parent: VisitorCivilian
-  components:
-    - type: GhostRole
-      name: job-name-lawyer
-    - type: Loadout
-      prototypes: [ VisitorLawyerAltA, VisitorLawyerAltB, VisitorLawyerAltC, VisitorLawyerAltD, VisitorLawyerAltE ]
-      roleLoadout: [ RoleSurvivalStandard ]
+#- type: randomHumanoidSettings
+#  id: VisitorLawyer
+#  parent: VisitorCivilian
+#  components:
+#    - type: GhostRole
+#      name: job-name-lawyer
+#    - type: Loadout
+#      prototypes: [ VisitorLawyerAltA, VisitorLawyerAltB, VisitorLawyerAltC, VisitorLawyerAltD, VisitorLawyerAltE ]
+#      roleLoadout: [ RoleSurvivalStandard ]
 
-- type: randomHumanoidSettings
-  id: VisitorLawyerCentcom
-  parent: VisitorCivilian
-  components:
-    - type: GhostRole
-      name: ghost-role-information-civilian-centcom-lawyer-name
-      description: ghost-role-information-civilian-centcom-lawyer-description
-    - type: Loadout
-      prototypes: [ VisitorLawyerCentcom ]
-      roleLoadout: [ RoleSurvivalStandard ]
+#- type: randomHumanoidSettings
+#  id: VisitorLawyerCentcom
+#  parent: VisitorCivilian
+#  components:
+#    - type: GhostRole
+#      name: ghost-role-information-civilian-centcom-lawyer-name
+#      description: ghost-role-information-civilian-centcom-lawyer-description
+#    - type: Loadout
+#      prototypes: [ VisitorLawyerCentcom ]
+#      roleLoadout: [ RoleSurvivalStandard ]
 
 - type: randomHumanoidSettings
   id: VisitorLibrarian

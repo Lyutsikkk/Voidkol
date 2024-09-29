@@ -1,0 +1,35 @@
+# Юридический отдел
+- type: job
+  id: Lawyer
+  name: адвокат
+  description: Добейтесь справедливого следствия и суда для каждого заключённого или преступника.
+  playTimeTracker: JobLawyer
+  requirements:
+    - !type:DepartmentTimeRequirement
+      department: Security
+      time: 14400 # 4 hours
+    - !type:OverallPlaytimeRequirement
+      time: 36000 # 10 hours
+    - !type:AgeRequirement
+      requiredAge: 21
+  startingGear: LawyerGear
+  icon: "JobIconLawyer"
+  supervisors: job-supervisors-cj
+  access:
+  - Brig
+  - Lawyer
+  - Service
+  - External
+  - Maintenance
+
+- type: startingGear
+  id: LawyerGear
+  equipment:
+    jumpsuit: ClothingUniformJumpsuitLawyerBlue
+    back: ClothingBackpack
+    shoes: ClothingShoesBootsLaceup
+    id: LawyerPDA
+    eyes: ClothingEyesGlassesSunglasses
+    ears: ClothingHeadsetJustice
+  inhand:
+  - BriefcaseLawyer

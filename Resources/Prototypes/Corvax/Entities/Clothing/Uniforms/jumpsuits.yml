@@ -35,7 +35,7 @@
   parent: ClothingUniformBase
   id: ClothingUniformJumpsuitCentcomAdmiral
   name: admiral's uniform
-  description: A uniform worn by those with the rank Admiral in the Nanotrasen Navy.
+  description: A uniform worn by those with the rank Admiral in the Voidkol Navy.
   components:
     - type: Sprite
       sprite: Corvax/Clothing/Uniforms/Jumpsuit/centcom_admiral.rsi

@@ -69820,18 +69820,6 @@ entities:
     - type: Transform
       pos: -8.5,-12.5
       parent: 2
-- proto: SpawnPointLawyer
-  entities:
-  - uid: 8160
-    components:
-    - type: Transform
-      pos: -2.5,-11.5
-      parent: 2
-  - uid: 8161
-    components:
-    - type: Transform
-      pos: -3.5,-10.5
-      parent: 2
 - proto: SpawnPointLibrarian
   entities:
   - uid: 11708

@@ -53,8 +53,8 @@ figurines-security-2 = You have violated article 1984.
 figurines-security-3 = Whenever I get bored I use the clown as target practice.
 figurines-security-4 = You have two rights: to remain silent and to cry about it.
 
-figurines-lawyer-1 = Better Call Saul!
-figurines-lawyer-2 = Objection!
+# figurines-lawyer-1 = Better Call Saul!
+# figurines-lawyer-2 = Objection!
 
 figurines-cargotech-1 = DRAGON ON ATS!
 figurines-cargotech-2 = I sold the station!

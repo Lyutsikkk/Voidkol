@@ -1,0 +1,45 @@
+# Юридический отдел
+- type: job
+  id: Justice
+  name: судья
+  description: Организуйте судебные процессы, нотариально заверяйте документы, рассматривайте обвинения и при необходимости выступайте в качестве судьи.
+  playTimeTracker: JobJustice
+  requirements:
+    - !type:DepartmentTimeRequirement
+      department: Security
+      time: 36000 # 10 hours
+    - !type:RoleTimeRequirement
+      role: JobLawyer
+      time: 36000 # 10 hours
+    - !type:RoleTimeRequirement
+      role: JobProsecutor
+      time: 36000 # 10 hours
+    - !type:AgeRequirement
+      requiredAge: 21
+  startingGear: JusticeGear
+  icon: "JobIconJustice"
+  requireAdminNotify: true
+  supervisors: job-supervisors-cj
+  canBeAntag: false
+  access:
+  - Brig
+  - Lawyer
+  - Service
+  - External
+  - Maintenance
+  special:
+  - !type:AddImplantSpecial
+    implants: [ MindShieldImplant ]
+
+- type: startingGear
+  id: JusticeGear
+  equipment:
+    jumpsuit: ClothingUniformJumpsuitLawyerBlack
+    back: ClothingBackpack
+    shoes: ClothingShoesBootsLaceup
+    outerClothing: ClothingOuterRobesJudge
+    id: JusticePDA
+    eyes: ClothingEyesGlassesCommand
+    ears: ClothingHeadsetJustice
+  inhand:
+  - BriefcaseJustice

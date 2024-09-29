@@ -23,7 +23,7 @@
   - Clown
   - HeadOfPersonnel
   - Janitor
-  - Lawyer
+#  - Lawyer
   - Librarian
   - Mime
   - Musician
@@ -58,7 +58,7 @@
   color: "#334E6D"
   roles:
   - Captain
-  - IAA # Corvax-IAA
+#  - IAA # Corvax-IAA
   - ChiefEngineer
   - ChiefMedicalOfficer
   - HeadOfPersonnel

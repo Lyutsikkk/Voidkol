@@ -1,0 +1,60 @@
+# Юридический отдел
+- type: entity
+  parent: BasePDA
+  id: ChiefJusticePDA
+  name: КПК верховного судьи
+  description: Безысходности и бюрократии.
+  components:
+  - type: Pda
+    id: ChiefJusticeIDCard
+    state: pda-chief_justice
+  - type: PdaBorderColor
+    borderColor: "#949137"
+    accentVColor: "#A32D26"
+  - type: Icon
+    state: pda-chief_justice
+
+- type: entity
+  parent: BasePDA
+  id: JusticePDA
+  name: КПК судьи
+  description: Безысходности и бюрократии.
+  components:
+  - type: Pda
+    id: JusticeIDCard
+    state: pda-justice
+  - type: PdaBorderColor
+    borderColor: "#949137"
+    accentVColor: "#A32D26"
+  - type: Icon
+    state: pda-justice
+
+- type: entity
+  parent: BasePDA
+  id: LawyerPDA
+  name: КПК адвоката
+  description: Безысходности и бюрократии.
+  components:
+  - type: Pda
+    id: LawyerIDCard
+    state: pda-justice
+  - type: PdaBorderColor
+    borderColor: "#949137"
+    accentVColor: "#A32D26"
+  - type: Icon
+    state: pda-justice
+
+- type: entity
+  parent: BasePDA
+  id: ProsecutorPDA
+  name: КПК прокурора
+  description: Безысходности и бюрократии.
+  components:
+  - type: Pda
+    id: ProsecutorIDCard
+    state: pda-justice
+  - type: PdaBorderColor
+    borderColor: "#949137"
+    accentVColor: "#A32D26"
+  - type: Icon
+    state: pda-justice

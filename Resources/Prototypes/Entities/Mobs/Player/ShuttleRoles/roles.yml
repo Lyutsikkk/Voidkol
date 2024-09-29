@@ -379,25 +379,25 @@
     - type: RandomHumanoidSpawner
       settings: VisitorJanitor
 
-- type: entity
-  id: RandomHumanoidVisitorLawyer
-  name: visiting lawyer ghost role
-  components:
-    - type: Sprite
-      sprite: Markers/jobs.rsi
-      state: lawyer
-    - type: RandomHumanoidSpawner
-      settings: VisitorLawyer
+#- type: entity
+#  id: RandomHumanoidVisitorLawyer
+#  name: visiting lawyer ghost role
+#  components:
+#    - type: Sprite
+#      sprite: Markers/jobs.rsi
+#      state: lawyer
+#    - type: RandomHumanoidSpawner
+#      settings: VisitorLawyer
 
-- type: entity
-  id: RandomHumanoidVisitorLawyerCentcom
-  name: visiting centcom lawyer ghost role
-  components:
-    - type: Sprite
-      sprite: Markers/jobs.rsi
-      state: lawyer
-    - type: RandomHumanoidSpawner
-      settings: VisitorLawyerCentcom
+#- type: entity
+#  id: RandomHumanoidVisitorLawyerCentcom
+#  name: visiting centcom lawyer ghost role
+#  components:
+#    - type: Sprite
+#      sprite: Markers/jobs.rsi
+#      state: lawyer
+#    - type: RandomHumanoidSpawner
+#      settings: VisitorLawyerCentcom
 
 - type: entity
   id: RandomHumanoidVisitorLibrarian

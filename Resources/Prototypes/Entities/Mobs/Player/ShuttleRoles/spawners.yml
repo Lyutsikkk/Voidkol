@@ -518,7 +518,7 @@
     - RandomHumanoidVisitorChef
     - RandomHumanoidVisitorClown
     - RandomHumanoidVisitorJanitor
-    - RandomHumanoidVisitorLawyer
+#    - RandomHumanoidVisitorLawyer
     - RandomHumanoidVisitorLibrarian
     - RandomHumanoidVisitorMusician
     - RandomHumanoidVisitorMime
@@ -627,33 +627,33 @@
     prototypes:
     - RandomHumanoidVisitorJanitor
 
-- type: entity
-  name: visiting lawyer spawner
-  id: VisitorLawyerSpawner
-  parent: MarkerBase
-  components:
-  - type: Sprite
-    layers:
-      - state: red
-      - sprite: Structures/Decoration/banner.rsi
-        state: banner
-  - type: RandomSpawner
-    prototypes:
-    - RandomHumanoidVisitorLawyer
+#- type: entity
+#  name: visiting lawyer spawner
+#  id: VisitorLawyerSpawner
+#  parent: MarkerBase
+#  components:
+#  - type: Sprite
+#    layers:
+#      - state: red
+#      - sprite: Structures/Decoration/banner.rsi
+#        state: banner
+#  - type: RandomSpawner
+#    prototypes:
+#    - RandomHumanoidVisitorLawyer
 
-- type: entity
-  name: visiting centcom lawyer spawner
-  id: VisitorLawyerCentcomSpawner
-  parent: MarkerBase
-  components:
-  - type: Sprite
-    layers:
-      - state: red
-      - sprite: Structures/Decoration/banner.rsi
-        state: banner
-  - type: RandomSpawner
-    prototypes:
-    - RandomHumanoidVisitorLawyerCentcom
+#- type: entity
+#  name: visiting centcom lawyer spawner
+#  id: VisitorLawyerCentcomSpawner
+#  parent: MarkerBase
+#  components:
+#  - type: Sprite
+#    layers:
+#      - state: red
+#      - sprite: Structures/Decoration/banner.rsi
+#        state: banner
+#  - type: RandomSpawner
+#    prototypes:
+#    - RandomHumanoidVisitorLawyerCentcom
 
 - type: entity
   name: visiting librarian spawner
@@ -871,7 +871,7 @@
     - RandomHumanoidVisitorChef
     - RandomHumanoidVisitorClown
     - RandomHumanoidVisitorJanitor
-    - RandomHumanoidVisitorLawyer
+#    - RandomHumanoidVisitorLawyer
     - RandomHumanoidVisitorLibrarian
     - RandomHumanoidVisitorMusician
     - RandomHumanoidVisitorMime

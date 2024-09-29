@@ -79,8 +79,8 @@
 - type: playTimeTracker
   id: JobJanitor
 
-- type: playTimeTracker
-  id: JobLawyer
+#- type: playTimeTracker
+#  id: JobLawyer
 
 - type: playTimeTracker
   id: JobLibrarian

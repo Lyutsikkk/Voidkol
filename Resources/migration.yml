@@ -387,7 +387,7 @@ SignToxins2: SignToxins
 SignMinerDock: SignShipDock
 SignChemistry1: SignChem
 SignChemistry2: SignChem
-SignCourt: SignLawyer
+# SignCourt: SignLawyer
 SignAtmosMinsky: SignAtmos
 SignDrones: SignMaterials
 SignShield: null # what was this even for?

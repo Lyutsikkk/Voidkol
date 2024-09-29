@@ -131200,18 +131200,6 @@ entities:
     - type: Transform
       pos: -1.5,-67.5
       parent: 60
-- proto: SpawnPointLawyer
-  entities:
-  - uid: 4271
-    components:
-    - type: Transform
-      pos: -49.5,-16.5
-      parent: 60
-  - uid: 6881
-    components:
-    - type: Transform
-      pos: -49.5,-20.5
-      parent: 60
 - proto: SpawnPointLibrarian
   entities:
   - uid: 14641

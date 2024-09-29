@@ -47619,7 +47619,7 @@ entities:
 
         [color=#57a343]░██░████░░░██░░░░[/color]      [head=3]Бланк документа[/head]
 
-        [color=#57a343]░░█░██░██░░██░█░░[/color]               [head=3]NanoTrasen[/head]
+        [color=#57a343]░░█░██░██░░██░█░░[/color]               [head=3]Voidkol[/head]
 
         [color=#57a343]░░░░██░░██░██░██░[/color] [bold]Terra Colony ЦК-КОМ[/bold]
 
@@ -54988,18 +54988,6 @@ entities:
     - type: Transform
       rot: 3.141592653589793 rad
       pos: -28.5,-6.5
-      parent: 2
-- proto: SpawnPointLawyer
-  entities:
-  - uid: 5312
-    components:
-    - type: Transform
-      pos: 27.5,-0.5
-      parent: 2
-  - uid: 5313
-    components:
-    - type: Transform
-      pos: 27.5,1.5
       parent: 2
 - proto: SpawnPointLibrarian
   entities:

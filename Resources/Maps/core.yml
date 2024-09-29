@@ -105953,7 +105953,7 @@ entities:
       - stampedColor: '#AF6E26FF'
         stampedName: CentCom Engi.
       content: >
-        [color=#009100]█▄ █ ▀█▀    [head=3]NanoTrasen Memo[/head]
+        [color=#009100]█▄ █ ▀█▀    [head=3]Voidkol Memo[/head]
 
         █ ▀█     █        NX Core: Singularity[/color]
 
@@ -105972,7 +105972,7 @@ entities:
         [italic]While we have listed the upsides we also acknowledge the downside,[/italic] for it being on its own loop you will need an external force if the system "runs out of juice". Our recommendation for this is simply attaching a generator to said SMES and letting it get to full charge before continuing operations but as said from another of our technicians... "just attach it to the main grid for like, a hot moment, and kickstart the thing!"
 
 
-        [italic]We are leaving this in your qualified hands and to your discretion. [bold]Best of wishes, NanoTrasen technical build team.[/bold][/italic]
+        [italic]We are leaving this in your qualified hands and to your discretion. [bold]Best of wishes, Voidkol technical build team.[/bold][/italic]
       editingDisabled: True
     - type: SolutionContainerManager
       solutions: null
@@ -106029,7 +106029,7 @@ entities:
       - stampedColor: '#AF6E26FF'
         stampedName: CentCom Engi.
       content: >
-        [color=#009100]█▄ █ ▀█▀    [head=3]NanoTrasen Memo[/head]
+        [color=#009100]█▄ █ ▀█▀    [head=3]Voidkol Memo[/head]
 
         █ ▀█     █        To the Core Engineering Team[/color]
 
@@ -106043,7 +106043,7 @@ entities:
         It is now a spare substation for any case where a substation or APC becomes damaged or wears out over time.
 
 
-        [italic]Best wishes, [bold]NanoTrasen Technical Build Team.[/bold][/italic]
+        [italic]Best wishes, [bold]Voidkol Technical Build Team.[/bold][/italic]
       editingDisabled: True
     - type: SolutionContainerManager
       solutions: null
@@ -119569,13 +119569,6 @@ entities:
     components:
     - type: Transform
       pos: -47.5,-46.5
-      parent: 2
-- proto: SpawnPointLawyer
-  entities:
-  - uid: 5968
-    components:
-    - type: Transform
-      pos: -48.5,-14.5
       parent: 2
 - proto: SpawnPointLibrarian
   entities:

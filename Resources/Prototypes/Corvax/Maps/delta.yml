@@ -30,7 +30,7 @@
             Mime: [ 1, 1 ]
             Zookeeper: [ 1, 1 ]
             Captain: [ 1, 1 ]
-            IAA: [ 1, 1 ]
+            #IAA: [ 1, 1 ]
             HeadOfPersonnel: [ 1, 1 ]
             ChiefEngineer: [ 1, 1 ]
             StationEngineer: [ 5, 5 ]
@@ -59,7 +59,6 @@
             Paramedic: [ 1, 1 ]
             #silicon
             Borg: [ 2, 3 ]
-            StationAi: [ 1, 1 ]
         - type: StationGoal
           goals:
           - Shuttle

@@ -141,13 +141,13 @@
     state: Chaplain
   jobName: job-name-chaplain
 
-- type: jobIcon
-  parent: JobIcon
-  id: JobIconLawyer
-  icon:
-    sprite: /Textures/Interface/Misc/job_icons.rsi
-    state: Lawyer
-  jobName: job-name-lawyer
+#- type: jobIcon
+#  parent: JobIcon
+#  id: JobIconLawyer
+#  icon:
+#    sprite: /Textures/Interface/Misc/job_icons.rsi
+#    state: Lawyer
+#  jobName: job-name-lawyer
 
 - type: jobIcon
   parent: JobIcon

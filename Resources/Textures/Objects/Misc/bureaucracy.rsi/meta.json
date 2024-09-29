@@ -181,7 +181,16 @@
       "name": "paper_stamp-chaplain"
     },
     {
+      "name": "paper_stamp-chief_justice"
+    },
+    {
+      "name": "paper_stamp-justice"
+    },
+    {
       "name": "paper_stamp-lawyer"
+    },
+    {
+      "name": "paper_stamp-prosecutor"
     },
     {
       "name": "paper_stamp-clown"

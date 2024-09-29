@@ -1,0 +1,56 @@
+#Юридический отдел
+- type: entity
+  id: BriefcaseChiefJustice
+  name: коричневый чемодан
+  description: Пригодится для переноски документов.
+  parent: BriefcaseBrown
+  suffix: Набор верховного судьи
+  components:
+  - type: StorageFill
+    contents:
+      - id: Gavel
+      - id: GavelBlock
+      - id: RubberStampChiefJustice
+      - id: RubberStampApproved
+      - id: RubberStampDenied
+      - id: BoxFolderBlue
+
+- type: entity
+  id: BriefcaseJustice
+  name: коричневый чемодан
+  description: Пригодится для переноски документов.
+  parent: BriefcaseBrown
+  suffix: Набор судьи
+  components:
+  - type: StorageFill
+    contents:
+      - id: Gavel
+      - id: GavelBlock
+      - id: RubberStampJustice
+      - id: RubberStampApproved
+      - id: RubberStampDenied
+      - id: BoxFolderBlue
+
+- type: entity
+  id: BriefcaseLawyer
+  name: коричневый чемодан
+  description: Пригодится для переноски документов.
+  parent: BriefcaseBrown
+  suffix: Набор адвоката
+  components:
+  - type: StorageFill
+    contents:
+      - id: RubberStampLawyer
+      - id: BoxFolderBlue
+
+- type: entity
+  id: BriefcaseProsecutor
+  name: коричневый чемодан
+  description: Пригодится для переноски документов.
+  parent: BriefcaseBrown
+  suffix: Набор прокурора
+  components:
+  - type: StorageFill
+    contents:
+      - id: RubberStampProsecutor
+      - id: BoxFolderBlue

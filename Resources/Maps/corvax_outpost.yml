@@ -16021,13 +16021,6 @@ entities:
     - type: Transform
       pos: -36.421524,-9.460551
       parent: 2
-- proto: BriefcaseIAAFilled
-  entities:
-  - uid: 15715
-    components:
-    - type: Transform
-      pos: -8.509075,29.490013
-      parent: 2
 - proto: BriefcaseThiefBribingBundleFilled
   entities:
   - uid: 15050
@@ -88689,13 +88682,6 @@ entities:
     components:
     - type: Transform
       pos: -27.5,-43.5
-      parent: 2
-- proto: SpawnPointLawyer
-  entities:
-  - uid: 8113
-    components:
-    - type: Transform
-      pos: -6.5,29.5
       parent: 2
 - proto: SpawnPointLibrarian
   entities:

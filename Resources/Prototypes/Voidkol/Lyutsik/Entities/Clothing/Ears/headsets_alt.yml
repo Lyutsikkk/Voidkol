@@ -1,0 +1,17 @@
+# Юридический отдел
+- type: entity
+  parent: ClothingHeadsetAlt
+  id: ClothingHeadsetAltChiefJustice
+  name: полноразмерная гарнитура судьи
+  description: Модифицированный модульный интерком, надеваемый на голову. Принимает ключи шифрования.
+  components:
+  - type: ContainerFill
+    containers:
+      key_slots:
+      - EncryptionKeySecurity
+      - EncryptionKeyCommand
+      - EncryptionKeyCommon
+  - type: Sprite
+    sprite: Voidkol/Lyutsik/Clothing/Ears/Headsets/justice.rsi
+  - type: Clothing
+    sprite: Voidkol/Lyutsik/Clothing/Ears/Headsets/justice.rsi

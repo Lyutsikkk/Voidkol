@@ -143549,18 +143549,6 @@ entities:
     - type: Transform
       pos: -72.5,-5.5
       parent: 8364
-- proto: SpawnPointLawyer
-  entities:
-  - uid: 9713
-    components:
-    - type: Transform
-      pos: -11.5,16.5
-      parent: 8364
-  - uid: 9714
-    components:
-    - type: Transform
-      pos: -11.5,14.5
-      parent: 8364
 - proto: SpawnPointLibrarian
   entities:
   - uid: 10863

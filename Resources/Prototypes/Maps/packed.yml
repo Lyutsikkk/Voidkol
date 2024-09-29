@@ -2,10 +2,8 @@
   id: Packed
   mapName: 'Packed'
   mapPath: /Maps/packed.yml
-  # Corvax-start
-  minPlayers: 0
-  maxPlayers: 30
-  # Corvax-end
+  minPlayers: 7
+  maxPlayers: 35
   stations:
     Packed:
       stationProto: StandardNanotrasenStation
@@ -19,7 +17,7 @@
           availableJobs:
             #service
             Captain: [ 1, 1 ]
-            IAA: [ 1, 1 ] # Corvax-IAA
+            #IAA: [ 1, 1 ] # Corvax-IAA
             HeadOfPersonnel: [ 1, 1 ]
             Bartender: [ 1, 1 ]
             Botanist: [ 1, 2 ]

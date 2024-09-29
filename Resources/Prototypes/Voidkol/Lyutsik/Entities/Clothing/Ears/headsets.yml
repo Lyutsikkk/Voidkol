@@ -1,0 +1,29 @@
+# Юридический отдел
+- type: entity
+  parent: ClothingHeadset
+  id: ClothingHeadsetJustice
+  name: гарнитура юриста
+  description: Гарнитура для обученного персонала юридического отдела.
+  components:
+  - type: ContainerFill
+    containers:
+      key_slots:
+      - EncryptionKeySecurity
+      - EncryptionKeyCommon
+  - type: Sprite
+    sprite: Voidkol/Lyutsik/Clothing/Ears/Headsets/justice.rsi
+  - type: Clothing
+    sprite: Voidkol/Lyutsik/Clothing/Ears/Headsets/justice.rsi
+
+- type: entity
+  parent: [ClothingHeadsetJustice, BaseCommandContraband]
+  id: ClothingHeadsetChiefJustice
+  name: полноразмерная гарнитура судьи
+  description: Гарнитура, используемая верховным судьёй.
+  components:
+  - type: ContainerFill
+    containers:
+      key_slots:
+      - EncryptionKeySecurity
+      - EncryptionKeyCommand
+      - EncryptionKeyCommon

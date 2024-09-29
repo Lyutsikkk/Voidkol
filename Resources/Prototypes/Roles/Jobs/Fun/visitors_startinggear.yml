@@ -1111,103 +1111,103 @@
   - MopItem
   - Bucket
 
-- type: startingGear
-  id: VisitorLawyerAltA
-  equipment:
-    jumpsuit: ClothingUniformJumpsuitLawyerBlack
-    shoes: ClothingShoesColorBlack
-    head: ClothingHeadHatFedoraGrey
-    neck: ClothingNeckLawyerbadge
-    id: VisitorPDA
-    back: ClothingBackpackSatchelLeather
-    ears: ClothingHeadsetSecurity
-    pocket1: RubberStampLawyer
-    pocket2: LuxuryPen
-  inhand:
-  - BriefcaseBrownFilled
+#- type: startingGear
+#  id: VisitorLawyerAltA
+#  equipment:
+#    jumpsuit: ClothingUniformJumpsuitLawyerBlack
+#    shoes: ClothingShoesColorBlack
+#    head: ClothingHeadHatFedoraGrey
+#    neck: ClothingNeckLawyerbadge
+#    id: VisitorPDA
+#    back: ClothingBackpackSatchelLeather
+#    ears: ClothingHeadsetSecurity
+#    pocket1: RubberStampLawyer
+#    pocket2: LuxuryPen
+#  inhand:
+#  - BriefcaseBrownFilled
 
-- type: startingGear
-  id: VisitorLawyerAltB
-  equipment:
-    jumpsuit: ClothingUniformJumpsuitLawyerBlue
-    shoes: ClothingShoesLeather
-    head: ClothingHeadHatFedoraBrown
-    neck: ClothingNeckLawyerbadge
-    id: VisitorPDA
-    back: ClothingBackpackSatchelLeather
-    ears: ClothingHeadsetSecurity
-    pocket1: RubberStampLawyer
-    pocket2: SmokingPipeFilledTobacco
-  inhand:
-  - BriefcaseBrownFilled
+#- type: startingGear
+#  id: VisitorLawyerAltB
+#  equipment:
+#    jumpsuit: ClothingUniformJumpsuitLawyerBlue
+#    shoes: ClothingShoesLeather
+#    head: ClothingHeadHatFedoraBrown
+#    neck: ClothingNeckLawyerbadge
+#    id: VisitorPDA
+#    back: ClothingBackpackSatchelLeather
+#    ears: ClothingHeadsetSecurity
+#    pocket1: RubberStampLawyer
+#    pocket2: SmokingPipeFilledTobacco
+#  inhand:
+#  - BriefcaseBrownFilled
 
-- type: startingGear
-  id: VisitorLawyerAltC
-  equipment:
-    jumpsuit: ClothingUniformJumpsuitLawyerRed
-    shoes: ClothingShoesColorRed
-    head: ClothingHeadHatCowboyBrown
-    neck: ClothingNeckLawyerbadge
-    id: VisitorPDA
-    back: ClothingBackpackSatchelLeather
-    belt: ClothingBeltStorageWaistbag
-    ears: ClothingHeadsetSecurity
-    pocket1: RubberStampLawyer
-    pocket2: SmokingPipeFilledTobacco
-  inhand:
-  - BriefcaseBrownFilled
+#- type: startingGear
+#  id: VisitorLawyerAltC
+#  equipment:
+#    jumpsuit: ClothingUniformJumpsuitLawyerRed
+#    shoes: ClothingShoesColorRed
+#    head: ClothingHeadHatCowboyBrown
+#    neck: ClothingNeckLawyerbadge
+#    id: VisitorPDA
+#    back: ClothingBackpackSatchelLeather
+#    belt: ClothingBeltStorageWaistbag
+#    ears: ClothingHeadsetSecurity
+#    pocket1: RubberStampLawyer
+#    pocket2: SmokingPipeFilledTobacco
+#  inhand:
+#  - BriefcaseBrownFilled
 
-- type: startingGear
-  id: VisitorLawyerAltD
-  equipment:
-    jumpsuit: ClothingUniformJumpsuitLawyerPurple
-    shoes: ClothingShoesSnakeskinBoots
-    gloves: ClothingHandsGlovesColorWhite
-    head: ClothingHeadHatBeaverHat
-    neck: ClothingNeckLawyerbadge
-    mask: CigarGold
-    id: VisitorPDA
-    back: ClothingBackpackSatchelLeather
-    ears: ClothingHeadsetSecurity
-    outerClothing: ClothingOuterCoatExpensive
-    pocket1: RubberStampLawyer
-    pocket2: LuxuryPen
-  inhand:
-  - BriefcaseBrownFilled
+#- type: startingGear
+#  id: VisitorLawyerAltD
+#  equipment:
+#    jumpsuit: ClothingUniformJumpsuitLawyerPurple
+#    shoes: ClothingShoesSnakeskinBoots
+#    gloves: ClothingHandsGlovesColorWhite
+#    head: ClothingHeadHatBeaverHat
+#    neck: ClothingNeckLawyerbadge
+#    mask: CigarGold
+#    id: VisitorPDA
+#    back: ClothingBackpackSatchelLeather
+#    ears: ClothingHeadsetSecurity
+#    outerClothing: ClothingOuterCoatExpensive
+#    pocket1: RubberStampLawyer
+#    pocket2: LuxuryPen
+#  inhand:
+#  - BriefcaseBrownFilled
 
-- type: startingGear
-  id: VisitorLawyerAltE
-  equipment:
-    jumpsuit: ClothingUniformJumpsuitLawyerGood
-    shoes: ClothingShoesLeather
-    head: ClothingHeadHatCorpsoft
-    neck: ClothingNeckLawyerbadge
-    id: VisitorPDA
-    back: ClothingBackpackSatchelLeather
-    belt: ClothingBeltStorageWaistbag
-    ears: ClothingHeadsetSecurity
-    pocket1: RubberStampLawyer
-    pocket2: LuxuryPen
-  inhand:
-  - BriefcaseBrownFilled
+#- type: startingGear
+#  id: VisitorLawyerAltE
+#  equipment:
+#    jumpsuit: ClothingUniformJumpsuitLawyerGood
+#    shoes: ClothingShoesLeather
+#    head: ClothingHeadHatCorpsoft
+#    neck: ClothingNeckLawyerbadge
+#    id: VisitorPDA
+#    back: ClothingBackpackSatchelLeather
+#    belt: ClothingBeltStorageWaistbag
+#    ears: ClothingHeadsetSecurity
+#    pocket1: RubberStampLawyer
+#    pocket2: LuxuryPen
+#  inhand:
+#  - BriefcaseBrownFilled
 
-- type: startingGear
-  id: VisitorLawyerCentcom
-  equipment:
-    jumpsuit: ClothingUniformJumpsuitCentcomAgent
-    shoes: ClothingShoesLeather
-    gloves: ClothingHandsGlovesLeather
-    head: BladedFlatcapBrown
-    neck: ClothingNeckLawyerbadge
-    id: VisitorLawyerPDA
-    back: ClothingBackpackSatchelLeather
-    belt: ClothingBeltStorageWaistbag
-    eyes: ClothingEyesGlassesSunglasses
-    ears: ClothingHeadsetCentCom
-    pocket1: RubberStampLawyer
-    pocket2: LuxuryPen
-  inhand:
-  - BriefcaseBrownFilled
+#- type: startingGear
+#  id: VisitorLawyerCentcom
+#  equipment:
+#    jumpsuit: ClothingUniformJumpsuitCentcomAgent
+#    shoes: ClothingShoesLeather
+#    gloves: ClothingHandsGlovesLeather
+#    head: BladedFlatcapBrown
+#    neck: ClothingNeckLawyerbadge
+#    id: VisitorLawyerPDA
+#    back: ClothingBackpackSatchelLeather
+#    belt: ClothingBeltStorageWaistbag
+#    eyes: ClothingEyesGlassesSunglasses
+#    ears: ClothingHeadsetCentCom
+#    pocket1: RubberStampLawyer
+#    pocket2: LuxuryPen
+#  inhand:
+#  - BriefcaseBrownFilled
 
 - type: startingGear
   id: VisitorLibrarian

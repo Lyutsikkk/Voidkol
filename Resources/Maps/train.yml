@@ -89170,18 +89170,6 @@ entities:
     - type: Transform
       pos: 3.5,-42.5
       parent: 2
-- proto: SpawnPointLawyer
-  entities:
-  - uid: 12884
-    components:
-    - type: Transform
-      pos: -4.5,-72.5
-      parent: 2
-  - uid: 13321
-    components:
-    - type: Transform
-      pos: -4.5,-71.5
-      parent: 2
 - proto: SpawnPointLibrarian
   entities:
   - uid: 13353

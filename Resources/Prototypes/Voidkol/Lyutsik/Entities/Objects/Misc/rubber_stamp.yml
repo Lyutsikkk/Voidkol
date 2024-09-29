@@ -1,0 +1,80 @@
+- type: entity
+  name: generic rubber stamp
+  parent: BaseItem
+  id: RubberStampBaseVoidkol
+  description: A rubber stamp for stamping important documents.
+  abstract: true
+  components:
+  - type: Stamp
+    stampedName: stamp-component-stamped-name-voidkol
+    stampState: "paper_stamp-generic"
+    stampedColor: "#a23e3e"
+    sound:
+      path: /Audio/Items/Stamp/thick_stamp_sub.ogg
+      params:
+        volume: -2
+        maxDistance: 5
+  - type: Sprite
+    sprite: Voidkol/Lyutsik/Objects/Misc/stamps.rsi
+    state: stamp-mime
+  - type: Item
+    size: Tiny
+  - type: StealTarget
+    stealGroup: Stamp
+
+# Юридический отдел
+- type: entity
+  name: печать верховного судьи
+  description: Печать из резины, для проставления печатей на важных документах.
+  parent: RubberStampBaseVoidkol
+  id: RubberStampChiefJustice
+  suffix: НЕ МАППИТЬ
+  components:
+  - type: Stamp
+    stampedName: Верховный судья
+    stampedColor: "#0b005c"
+    stampState: "paper_stamp-chief_justice"
+  - type: Sprite
+    state: stamp-chief_justice
+
+- type: entity
+  name: печать судьи
+  description: Печать из резины, для проставления печатей на важных документах.
+  parent: RubberStampBaseVoidkol
+  id: RubberStampJustice
+  suffix: НЕ МАППИТЬ
+  components:
+  - type: Stamp
+    stampedName: Судья
+    stampedColor: "#100082"
+    stampState: "paper_stamp-justice"
+  - type: Sprite
+    state: stamp-justice
+
+- type: entity
+  name: печать адвоката
+  description: Печать из резины, для проставления печатей на важных документах.
+  parent: RubberStampBaseVoidkol
+  id: RubberStampLawyer
+  suffix: НЕ МАППИТЬ
+  components:
+  - type: Stamp
+    stampedName: Адвокат
+    stampedColor: "#100082"
+    stampState: "paper_stamp-lawyer"
+  - type: Sprite
+    state: stamp-lawyer
+
+- type: entity
+  name: печать прокурора
+  description: Печать из резины, для проставления печатей на важных документах.
+  parent: RubberStampBaseVoidkol
+  id: RubberStampProsecutor
+  suffix: НЕ МАППИТЬ
+  components:
+  - type: Stamp
+    stampedName: Прокурор
+    stampedColor: "#1800d1"
+    stampState: "paper_stamp-prosecutor"
+  - type: Sprite
+    state: stamp-prosecutor

@@ -252,7 +252,7 @@ ghost-role-information-medical-description = You are a medical professional, but
 ghost-role-information-cargo-name = Cargo
 ghost-role-information-cargo-description = You are part of a logistics mission, but seem to have found yourself in a strange situation...
 
-ghost-role-information-engineering-name = Engineering 
+ghost-role-information-engineering-name = Engineering
 ghost-role-information-engineering-description = You are on an engineering job, but seem to have found yourself in a strange situation...
 
 ghost-role-information-science-name = Science
@@ -260,8 +260,8 @@ ghost-role-information-science-description = You are part of a science team, but
 
 ghost-role-information-civilian-name = Civilian
 ghost-role-information-civilian-description = You were just hanging out, but seem to have found yourself in a strange situation...
-ghost-role-information-civilian-centcom-lawyer-name = Centcom Lawyer
-ghost-role-information-civilian-centcom-lawyer-description = A lawyer direct from the Central Legal Division.
+# ghost-role-information-civilian-centcom-lawyer-name = Centcom Lawyer
+# ghost-role-information-civilian-centcom-lawyer-description = A lawyer direct from the Central Legal Division.
 
 ghost-role-information-command-name = Commander
 ghost-role-information-command-description = You are a member of command, but seem to have found yourself in a strange situation...

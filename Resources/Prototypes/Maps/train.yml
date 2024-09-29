@@ -4,10 +4,8 @@
   mapPath: /Maps/train.yml
   maxRandomOffset: 0
   randomRotation: false
-  # Corvax-start
-  minPlayers: 20
-  maxPlayers: 50
-  # Corvax-end
+  minPlayers: 35
+  maxPlayers: 70
   stations:
     Train:
       stationProto: StandardNanotrasenStation
@@ -23,7 +21,7 @@
           availableJobs:
             #service
             Captain: [ 1, 1 ]
-            IAA: [ 1, 1 ]
+            #IAA: [ 1, 1 ]
             HeadOfPersonnel: [ 1, 1 ]
             Bartender: [ 1, 1 ]
             Botanist: [ 2, 2 ]

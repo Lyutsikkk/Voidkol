@@ -1,0 +1,164 @@
+- type: entity
+  parent: BasePlushie
+  id: PlushieAriralRed
+  suffix: Админ игрушка
+  name: арирал
+  description: Кошкоподобные инопланетные гуманоиды.
+  components:
+  - type: Sprite
+    sprite: Voidkol/Lyutsik/Objects/Fun/Plushie/Ariral.rsi
+    state: ariral_red
+  - type: EmitSoundOnUse
+    sound:
+      path: /Audio/Voidkol/Lyutsik/Effects/PlushieAriral/plushie_ariral.ogg
+  - type: EmitSoundOnLand
+    sound:
+      path: /Audio/Voidkol/Lyutsik/Effects/PlushieAriral/plushie_ariral.ogg
+  - type: EmitSoundOnActivate
+    sound:
+      path: /Audio/Voidkol/Lyutsik/Effects/PlushieAriral/plushie_ariral.ogg
+  - type: EmitSoundOnTrigger
+    sound:
+      path: /Audio/Voidkol/Lyutsik/Effects/PlushieAriral/plushie_ariral.ogg
+  - type: MeleeWeapon
+    soundHit:
+      path: /Audio/Voidkol/Lyutsik/Effects/PlushieAriral/plushie_ariral.ogg
+  - type: Food
+    requiresSpecialDigestion: true
+    useSound:
+      path: /Audio/Voidkol/Lyutsik/Effects/PlushieAriral/plushie_ariral.ogg
+  - type: Item
+    size: Normal
+    sprite: Voidkol/Lyutsik/Objects/Fun/Plushie/Ariral.rsi
+
+- type: entity
+  parent: BasePlushie
+  id: PlushieAriralBlue
+  suffix: Админ игрушка
+  name: арирал
+  description: Кошкоподобные инопланетные гуманоиды.
+  components:
+  - type: Sprite
+    sprite: Voidkol/Lyutsik/Objects/Fun/Plushie/Ariral.rsi
+    state: ariral_blue
+  - type: EmitSoundOnUse
+    sound:
+      path: /Audio/Voidkol/Lyutsik/Effects/PlushieAriral/plushie_ariral.ogg
+  - type: EmitSoundOnLand
+    sound:
+      path: /Audio/Voidkol/Lyutsik/Effects/PlushieAriral/plushie_ariral.ogg
+  - type: EmitSoundOnActivate
+    sound:
+      path: /Audio/Voidkol/Lyutsik/Effects/PlushieAriral/plushie_ariral.ogg
+  - type: EmitSoundOnTrigger
+    sound:
+      path: /Audio/Voidkol/Lyutsik/Effects/PlushieAriral/plushie_ariral.ogg
+  - type: MeleeWeapon
+    soundHit:
+      path: /Audio/Voidkol/Lyutsik/Effects/PlushieAriral/plushie_ariral.ogg
+  - type: Food
+    requiresSpecialDigestion: true
+    useSound:
+      path: /Audio/Voidkol/Lyutsik/Effects/PlushieAriral/plushie_ariral.ogg
+  - type: Item
+    size: Normal
+    sprite: Voidkol/Lyutsik/Objects/Fun/Plushie/Ariral.rsi
+
+- type: entity
+  parent: BasePlushie
+  id: PlushieAriralGreen
+  suffix: Админ игрушка
+  name: арирал
+  description: Кошкоподобные инопланетные гуманоиды.
+  components:
+  - type: Sprite
+    sprite: Voidkol/Lyutsik/Objects/Fun/Plushie/Ariral.rsi
+    state: ariral_green
+  - type: EmitSoundOnUse
+    sound:
+      path: /Audio/Voidkol/Lyutsik/Effects/PlushieAriral/plushie_ariral.ogg
+  - type: EmitSoundOnLand
+    sound:
+      path: /Audio/Voidkol/Lyutsik/Effects/PlushieAriral/plushie_ariral.ogg
+  - type: EmitSoundOnActivate
+    sound:
+      path: /Audio/Voidkol/Lyutsik/Effects/PlushieAriral/plushie_ariral.ogg
+  - type: EmitSoundOnTrigger
+    sound:
+      path: /Audio/Voidkol/Lyutsik/Effects/PlushieAriral/plushie_ariral.ogg
+  - type: MeleeWeapon
+    soundHit:
+      path: /Audio/Voidkol/Lyutsik/Effects/PlushieAriral/plushie_ariral.ogg
+  - type: Food
+    requiresSpecialDigestion: true
+    useSound:
+      path: /Audio/Voidkol/Lyutsik/Effects/PlushieAriral/plushie_ariral.ogg
+  - type: Item
+    size: Normal
+    sprite: Voidkol/Lyutsik/Objects/Fun/Plushie/Ariral.rsi
+
+- type: entity
+  parent: BasePlushie
+  id: PlushieKilla
+  suffix: Админ игрушка
+  name: килла
+  description: СБЭУ.
+  components:
+  - type: Sprite
+    sprite: Voidkol/Lyutsik/Objects/Fun/Plushie/Tarkov.rsi
+    state: killa
+  - type: EmitSoundOnUse
+    sound:
+      path: /Audio/Voidkol/Lyutsik/Effects/PlushieTarkov/killa_toptop.ogg
+  - type: EmitSoundOnLand
+    sound:
+      path: /Audio/Voidkol/Lyutsik/Effects/PlushieTarkov/killa_slep.ogg
+  - type: EmitSoundOnActivate
+    sound:
+      path: /Audio/Voidkol/Lyutsik/Effects/PlushieTarkov/killa_toptop.ogg
+  - type: EmitSoundOnTrigger
+    sound:
+      path: /Audio/Voidkol/Lyutsik/Effects/PlushieTarkov/killa_slep.ogg
+  - type: MeleeWeapon
+    soundHit:
+      path: /Audio/Items/Toys/toysqueak1.ogg
+  - type: Food
+    requiresSpecialDigestion: true
+    useSound:
+      path: /Audio/Items/Toys/toysqueak1.ogg
+  - type: Item
+    size: Normal
+    sprite: Voidkol/Lyutsik/Objects/Fun/Plushie/Tarkov.rsi
+
+- type: entity
+  parent: BasePlushie
+  id: PlushieTagilla
+  suffix: Админ игрушка
+  name: тагилла
+  description: СБЭУ.
+  components:
+  - type: Sprite
+    sprite: Voidkol/Lyutsik/Objects/Fun/Plushie/Tarkov.rsi
+    state: tagilla
+  - type: EmitSoundOnUse
+    sound:
+      path: /Audio/Voidkol/Lyutsik/Effects/PlushieTarkov/tagilla_glaza.ogg
+  - type: EmitSoundOnLand
+    sound:
+      path: /Audio/Voidkol/Lyutsik/Effects/PlushieTarkov/tagilla_molot.ogg
+  - type: EmitSoundOnActivate
+    sound:
+      path: /Audio/Voidkol/Lyutsik/Effects/PlushieTarkov/tagilla_glaza.ogg
+  - type: EmitSoundOnTrigger
+    sound:
+      path: /Audio/Voidkol/Lyutsik/Effects/PlushieTarkov/tagilla_molot.ogg
+  - type: MeleeWeapon
+    soundHit:
+      path: /Audio/Items/Toys/toysqueak1.ogg
+  - type: Food
+    requiresSpecialDigestion: true
+    useSound:
+      path: /Audio/Items/Toys/toysqueak1.ogg
+  - type: Item
+    size: Normal
+    sprite: Voidkol/Lyutsik/Objects/Fun/Plushie/Tarkov.rsi

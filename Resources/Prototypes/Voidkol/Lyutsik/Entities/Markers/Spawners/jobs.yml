@@ -1,0 +1,60 @@
+- type: entity
+  id: SpawnPointJobBaseVoidkol
+  parent: MarkerBase
+  abstract: true
+  suffix: Job Spawn
+  components:
+  - type: SpawnPoint
+    spawn_type: Job
+  - type: Sprite
+    sprite: Voidkol/Lyutsik/Markers/jobs.rsi
+
+
+# Юридический отдел
+- type: entity
+  id: SpawnPointChiefJustice
+  parent: SpawnPointJobBaseVoidkol
+  name: верховный судья
+  components:
+  - type: SpawnPoint
+    job_id: ChiefJustice
+  - type: Sprite
+    layers:
+      - state: green
+      - state: chief_justice
+
+- type: entity
+  id: SpawnPointJustice
+  parent: SpawnPointJobBaseVoidkol
+  name: судья
+  components:
+  - type: SpawnPoint
+    job_id: Justice
+  - type: Sprite
+    layers:
+      - state: green
+      - state: justice
+
+- type: entity
+  id: SpawnPointLawyer
+  parent: SpawnPointJobBaseVoidkol
+  name: адвокат
+  components:
+  - type: SpawnPoint
+    job_id: Lawyer
+  - type: Sprite
+    layers:
+      - state: green
+      - state: lawyer
+
+- type: entity
+  id: SpawnPointProsecutor
+  parent: SpawnPointJobBaseVoidkol
+  name: прокурор
+  components:
+  - type: SpawnPoint
+    job_id: Prosecutor
+  - type: Sprite
+    layers:
+      - state: green
+      - state: prosecutor

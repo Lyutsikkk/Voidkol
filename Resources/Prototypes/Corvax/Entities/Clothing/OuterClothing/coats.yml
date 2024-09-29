@@ -56,7 +56,7 @@
   parent: ClothingOuterStorageBase
   id: ClothingOuterCoatSecurityOvercoat
   name: security overcoat
-  description: Lightly armored leather overcoat meant as casual wear for high-ranking officers. Bears the crest of Nanotrasen Security.
+  description: Lightly armored leather overcoat meant as casual wear for high-ranking officers. Bears the crest of Voidkol Security.
   components:
     - type: Sprite
       sprite: Corvax/Clothing/OuterClothing/Coats/sec_leather.rsi

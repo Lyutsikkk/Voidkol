@@ -66348,13 +66348,6 @@ entities:
     - type: Transform
       pos: -10.5,-45.5
       parent: 4812
-- proto: SpawnPointLawyer
-  entities:
-  - uid: 8308
-    components:
-    - type: Transform
-      pos: -17.5,16.5
-      parent: 4812
 - proto: SpawnPointLibrarian
   entities:
   - uid: 7634

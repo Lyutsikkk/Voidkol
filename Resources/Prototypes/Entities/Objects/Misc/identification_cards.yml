@@ -351,17 +351,17 @@
     - type: PresetIdCard
       job: Librarian
 
-- type: entity
-  parent: IDCardStandard
-  id: LawyerIDCard
-  name: lawyer ID card
-  components:
-    - type: Sprite
-      layers:
-        - state: default
-        - state: idlawyer
-    - type: PresetIdCard
-      job: Lawyer
+#- type: entity
+#  parent: IDCardStandard
+#  id: LawyerIDCard
+#  name: lawyer ID card
+#  components:
+#    - type: Sprite
+#      layers:
+#        - state: default
+#        - state: idlawyer
+#    - type: PresetIdCard
+#      job: Lawyer
 
 - type: entity
   parent: IDCardStandard

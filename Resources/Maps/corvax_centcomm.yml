@@ -9063,7 +9063,7 @@ entities:
       content: >2+
                                    [head=2] Джордж Оруэлл [/head]
 
-                                                [head=1] 1984  [/head]                                             
+                                                [head=1] 1984  [/head]
 
                                          (краткий пересказ)
         [head=3] Часть первая [/head]
@@ -10817,13 +10817,6 @@ entities:
     components:
     - type: Transform
       pos: 57.519646,46.48197
-      parent: 2
-- proto: BriefcaseIAAFilled
-  entities:
-  - uid: 815
-    components:
-    - type: Transform
-      pos: 63.523243,36.66383
       parent: 2
 - proto: BrokenBottle
   entities:
@@ -39863,7 +39856,7 @@ entities:
   - uid: 527
     components:
     - type: MetaData
-      desc: Стандартное хранилище Nanotrasen. Хранит нужные вещи для усмерения буйных пациентов после клонирования.
+      desc: Стандартное хранилище Voidkol. Хранит нужные вещи для усмерения буйных пациентов после клонирования.
       name: шкаф для буйных пациентов
     - type: Transform
       pos: 14.5,38.5

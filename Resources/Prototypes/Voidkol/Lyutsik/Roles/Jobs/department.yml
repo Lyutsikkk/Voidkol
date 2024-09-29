@@ -1,0 +1,12 @@
+# Юридический отдел
+- type: department
+  id: Justice
+  name: department-Justice
+  description: Бумаги и правосудие! Наведите порядок на этой станции.
+  color: "#DE3A3A"
+  weight: 50
+  roles:
+  - ChiefJustice # Верховный судья
+  - Justice # Судья
+  - Lawyer # Адвокат
+  - Prosecutor # Прокуро

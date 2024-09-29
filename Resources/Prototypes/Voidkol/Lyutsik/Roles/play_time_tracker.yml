@@ -1,0 +1,12 @@
+# Юридический отдел
+- type: playTimeTracker
+  id: JobChiefJustice
+
+- type: playTimeTracker
+  id: JobJustice
+
+- type: playTimeTracker
+  id: JobLawyer
+
+- type: playTimeTracker
+  id: JobProsecutor
