@@ -106,9 +106,9 @@
   id: GameRuleSpaceDustMinor
   components:
   - type: StationEvent
-    weight: 44
+    weight: 12
     earliestStart: 2
-    minimumPlayers: 0
+    minimumPlayers: 15
   - type: MeteorSwarm
     announcement: null
     announcementSound: null
@@ -116,19 +116,19 @@
     meteors:
       MeteorSpaceDust: 1
     waves:
+      min: 1
+      max: 2
+    meteorsPerWave:
       min: 2
       max: 3
-    meteorsPerWave:
-      min: 3
-      max: 5
 
 - type: entity
   parent: GameRuleMeteorSwarm
   id: GameRuleSpaceDustMajor
   components:
   - type: StationEvent
-    weight: 22
-    minimumPlayers: 0
+    weight: 8
+    minimumPlayers: 10
   - type: MeteorSwarm
     announcement: station-event-space-dust-start-announcement
     announcementSound: /Audio/Announcements/attention.ogg
@@ -136,11 +136,11 @@
     meteors:
       MeteorSpaceDust: 1
     waves:
-      min: 2
-      max: 3
+      min: 1
+      max: 2
     meteorsPerWave:
-      min: 8
-      max: 12
+      min: 4
+      max: 10
 
 - type: entity
   parent: GameRuleMeteorSwarm
