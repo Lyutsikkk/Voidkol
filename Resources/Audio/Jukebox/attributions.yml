@@ -13,14 +13,6 @@
   copyright: "Title3 by Cuboos. It is a remix of the song 'Tintin on the Moon'. Converted to mono OGG."
   source: "https://www.youtube.com/watch?v=YKVmXn-Gv0M"
 
-- files:
-  - "constellations.ogg"
-  - "drifting.ogg"
-  - "starlight.ogg"
-  license: "CC-BY-3.0"
-  copyright: "Constellations by Qwertyquerty. Converted to mono OGG."
-  source: "https://www.youtube.com/channel/UCPYbhBUGhH7n_G4HLK2YipQ"
-
 - files: ["sunset.ogg"]
   license: "CC-BY-SA-3.0"
   copyright: "Sunset by PigeonBeans. Exported in Mono OGG."

@@ -12,7 +12,7 @@
       time: 36000 #10 hrs # Corvax-RoleTime
     - !type:DepartmentTimeRequirement
       department: Cargo
-      time: 54000 #15 hrs # Corvax-RoleTime
+      time: 43200 #12 часов
 #    - !type:OverallPlaytimeRequirement
 #      time: 144000 #40 hrs
     - !type:AgeRequirement

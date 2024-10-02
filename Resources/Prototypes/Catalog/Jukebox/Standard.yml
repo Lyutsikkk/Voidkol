@@ -17,25 +17,13 @@
     path: /Audio/Jukebox/sector11.ogg
 
 - type: jukebox
-  id: Constellations
-  name: Qwertyquerty - Constellations
-  path:
-    path: /Audio/Jukebox/constellations.ogg
-
-- type: jukebox
-  id: Drifting
-  name: Qwertyquerty - Drifting
-  path:
-    path: /Audio/Jukebox/drifting.ogg
-
-- type: jukebox
-  id: starlight
-  name: Qwertyquerty - Starlight
-  path:
-    path: /Audio/Jukebox/starlight.ogg
-
-- type: jukebox
-  id: sunset
+  id: Sunset
   name: PigeonBeans - Sunset
   path:
     path: /Audio/Jukebox/sunset.ogg
+
+- type: jukebox
+  id: sunset
+  name: The Animals - The House of the Rising Sun
+  path:
+    path: /Audio/Jukebox/the-animals.ogg
