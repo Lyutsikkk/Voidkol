@@ -1,0 +1,126 @@
+- type: entity
+  name: ксеноморф
+  id: MobXenoAlien
+  parent: SimpleSpaceMobBase
+  description: Чрезвычайно агрессивная эндопаразитическая внеземная раса.
+  components:
+  - type: Insulated
+  - type: CombatMode
+  - type: InputMover
+  - type: MobMover
+  - type: Reactive
+    groups:
+      Flammable: [Touch]
+      Extinguish: [Touch]
+  - type: NpcFactionMember
+    factions:
+    - Xeno
+  - type: Hands
+  - type: ComplexInteraction
+  - type: Sprite
+    drawdepth: Mobs
+    sprite: Voidkol/Lyutsik/Mobs/Aliens/Xenos/alien.rsi
+    layers:
+    - map: ["enum.DamageStateVisualLayers.Base"]
+      state: alien
+  - type: Fixtures
+    fixtures:
+      fix1:
+        shape:
+          !type:PhysShapeCircle
+          radius: 0.25
+        density: 1000
+        mask:
+        - MobMask
+        layer:
+        - MobLayer
+  - type: MobState
+    allowedStates:
+    - Alive
+    - Critical
+    - Dead
+  - type: MobThresholds
+    thresholds:
+      0: Alive
+      450: Critical
+      500: Dead
+  - type: SlowOnDamage
+    speedModifierThresholds:
+      400: 0.5
+  - type: Stamina
+    critThreshold: 200
+  - type: Bloodstream
+    bloodReagent: FluorosulfuricAcid
+    bloodMaxVolume: 650
+  - type: MeleeWeapon
+    altDisarm: false
+    soundHit:
+      path: /Audio/Weapons/Xeno/alien_claw_flesh3.ogg
+    damage:
+      types:
+        Brute: 15
+        Slash: 15
+  - type: DamageStateVisuals
+    rotate: true
+    states:
+      Alive:
+        Base: running
+      Critical:
+        Base: crit
+      Dead:
+        Base: dead
+  - type: Puller
+  - type: Butcherable
+    butcheringType: Spike
+    spawned:
+    - id: FoodMeatXeno
+      amount: 5
+  - type: GhostRole
+    allowMovement: true
+    allowSpeech: true
+    makeSentient: true
+    name: ксеноморф
+    description: Королева ксеноморфов
+    rules: Сформируйте гнездо в самых тёмных уголках станции и сожрите экипаж.
+    raffle:
+      settings: default
+  - type: GhostTakeoverAvailable
+  - type: TypingIndicator
+    proto: alien
+  - type: Temperature # Устойчивость к температуре
+    heatDamageThreshold: 360
+    coldDamageThreshold: -150
+    currentTemperature: 310.15
+  - type: Tag
+    tags:
+      - CannotSuicide
+      - DoorBumpOpener
+      - FootstepSound
+  - type: NoSlip
+  - type: Perishable
+    molsPerSecondPerUnitMass: 0.0005
+  - type: Speech
+    speechVerb: LargeMob
+  - type: Devourer # Поедание
+    foodPreference: Humanoid
+    shouldStoreDevoured: true
+    chemical: Ichor
+    healRate: 20.0
+    whitelist:
+      components:
+      - MobState
+  - type: Prying # Открытие шлюза
+    pryPowered: true
+    force: true
+    speedModifier: 1.5
+    useSound:
+      path: /Audio/Machines/airlock_creaking.ogg
+  - type: Hunger
+    currentHunger: 25
+    thresholds:
+      Overfed: 250
+      Okay: 200
+      Peckish: 100
+      Starving: 50
+      Dead: 0
+    baseDecayRate: 0.5

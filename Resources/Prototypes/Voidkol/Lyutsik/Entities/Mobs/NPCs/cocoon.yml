@@ -1,0 +1,11 @@
+- type: entity
+  id: AlienXenoAction
+  name: Сформировать кокон
+  description: Создайте потомство, чтоб получить поддержку.
+  components:
+  - type: InstantAction
+    useDelay: 4
+    icon:
+      sprite: Voidkol/Lyutsik/Interface/Actions/alien_xeno.rsi
+      state: spawn_cocoon
+    event: !type:AlienXenoActionEvent
