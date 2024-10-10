@@ -1,0 +1,23 @@
+- type: entity
+  id: AlienBabyAction
+  name: Выгляньте из кокона
+  description: Ну же, вылезай, мама ксено тебя ждёт!
+  components:
+  - type: InstantAction
+    icon:
+      sprite: Voidkol/Lyutsik/Interface/Actions/alien_xeno.rsi
+      state: aww_minimonstr
+    event: !type:ReformEvent {}
+    useDelay: 240
+
+- type: entity
+  id: AlienReformAction
+  name: Эволюция
+  description: Эволюционируйте и вырастите в взрослую особь
+  components:
+  - type: InstantAction
+    icon:
+      sprite: Voidkol/Lyutsik/Interface/Actions/alien_xeno.rsi
+      state: fullalien_reform_baby
+    event: !type:ReformEvent {}
+    useDelay: 360

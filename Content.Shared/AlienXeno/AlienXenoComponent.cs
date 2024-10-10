@@ -20,8 +20,8 @@ public sealed partial class AlienXenoComponent : Component
     /// <summary>
     ///     The amount of hunger one use of Raise Army consumes
     /// </summary>
-    [ViewVariables(VVAccess.ReadWrite), DataField("hungerPerArmyUse", required: true)]
-    public float HungerPerArmyUse = 25f;
+    [ViewVariables(VVAccess.ReadWrite), DataField("hungerPerArmyUse", required: false)]
+    public float HungerPerArmyUse = 70f;
 
     /// <summary>
     ///     The entity prototype of the mob that Raise Army summons

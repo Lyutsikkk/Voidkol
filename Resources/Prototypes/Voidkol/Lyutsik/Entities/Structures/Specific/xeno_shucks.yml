@@ -1,6 +1,7 @@
 - type: entity
-  id: AlienXenoCocoon
+  id: AlienXenoCocoonShucks
   name: кокон ксеноморфа
+  suffix: Voidkol
   components:
   - type: RangedDamageSound
     soundGroups:
@@ -18,9 +19,7 @@
   - type: Sprite
     sprite: Voidkol/Lyutsik/Structures/Specific/xeno_cocoon.rsi
     layers:
-      - state: xeno_cocoon
-      - state: xeno_cocoon-unshaded
-        shader: unshaded
+      - state: xeno_shucks
   - type: Damageable
     damageContainer: StructuralInorganic
     damageModifierSet: Metallic
@@ -31,7 +30,7 @@
       fix1:
         shape:
           !type:PhysShapeAabb
-          bounds: "-0.3,-0.3,0.3,0.3"
+          bounds: "-0.5,-0.5,0.5,0.5"
         mask:
           - TableMask
         layer:
@@ -40,7 +39,11 @@
     thresholds:
       - trigger:
           !type:DamageTrigger
-          damage: 50
+          damage: 40
         behaviors:
           - !type:DoActsBehavior
             acts: [ "Destruction" ]
+  - type: Climbable
+  - type: EmitSoundOnSpawn
+    sound:
+      path: /Audio/Effects/desecration-01.ogg

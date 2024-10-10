@@ -487,3 +487,11 @@
     path: /Audio/Animals/parrot_raught.ogg
     params:
       variation: 0.125
+
+- type: emoteSounds
+  id: MaleAlien
+  params:
+    variation: 0.125
+  sounds:
+    Scream:
+      collection: MaleScreams

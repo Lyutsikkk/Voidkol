@@ -9,6 +9,12 @@
   "states": [
     {
       "name": "spawn_cocoon"
+    },
+    {
+      "name": "aww_minimonstr"
+    },
+    {
+      "name": "fullalien_reform_baby"
     }
   ]
 }

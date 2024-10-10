@@ -1,11 +1,10 @@
 - type: entity
-  id: MobXenoAlien
-  name: чужой
+  id: MobXenoAlienBaby
+  name: ксеноморф
   suffix: Voidkol
   parent: SimpleSpaceMobBase
   description: Чрезвычайно агрессивная эндопаразитическая внеземная раса.
   components:
-  - type: AlienXeno
   - type: Insulated
   - type: CombatMode
   - type: InputMover
@@ -14,7 +13,6 @@
     groups:
       Flammable: [Touch]
       Extinguish: [Touch]
-  - type: MindContainer
   - type: NpcFactionMember
     factions:
     - Alien
@@ -22,7 +20,7 @@
   - type: ComplexInteraction
   - type: Sprite
     drawdepth: Mobs
-    sprite: Voidkol/Lyutsik/Mobs/Aliens/Xenos/alien.rsi
+    sprite: Voidkol/Lyutsik/Mobs/Aliens/Xenos/alien_baby.rsi
     layers:
     - map: ["enum.DamageStateVisualLayers.Base", "movement"]
       state: alien
@@ -38,8 +36,8 @@
       fix1:
         shape:
           !type:PhysShapeCircle
-          radius: 0.25
-        density: 1000
+          radius: 0.35
+        density: 130
         mask:
         - MobMask
         layer:
@@ -52,13 +50,13 @@
   - type: MobThresholds
     thresholds:
       0: Alive
-      600: Critical
-      700: Dead
+      100: Critical
+      120: Dead
   - type: SlowOnDamage
     speedModifierThresholds:
-      500: 0.5
+      120: 0.5
   - type: Stamina
-    critThreshold: 1000
+    critThreshold: 400
   - type: Bloodstream
     bloodReagent: FluorosulfuricAcid
     bloodMaxVolume: 650
@@ -68,8 +66,8 @@
       path: /Audio/Weapons/Xeno/alien_claw_flesh3.ogg
     damage:
       types:
-        Brute: 25
-        Slash: 30
+        Brute: 10
+        Slash: 15
   - type: DamageStateVisuals
     rotate: true
     states:
@@ -85,16 +83,6 @@
     spawned:
     - id: FoodMeatXeno
       amount: 5
-  - type: GhostRole
-    allowMovement: true
-    allowSpeech: true
-    makeSentient: true
-    name: ксеноморф
-    description: Королева ксеноморфов
-    rules: Сформируйте гнездо в самых тёмных уголках станции и сожрите экипаж.
-    raffle:
-      settings: default
-  - type: GhostTakeoverAvailable
   - type: TypingIndicator
     proto: alien
   - type: Temperature
@@ -111,27 +99,33 @@
     molsPerSecondPerUnitMass: 0.0005
   - type: Speech
     speechVerb: LargeMob
-  - type: Devourer
-    foodPreference: Humanoid
-    shouldStoreDevoured: true
-    devourTime: 1.5
-    chemical: Ichor
-    healRate: 20.0
-    whitelist:
-      components:
-      - MobState
   - type: Prying
     pryPowered: true
     force: true
-    speedModifier: 1.5
+    speedModifier: 5.0
     useSound:
       path: /Audio/Machines/airlock_creaking.ogg
   - type: Hunger
-    currentHunger: 10
+    currentHunger: 150
     thresholds:
-      Overfed: 250
-      Okay: 200
-      Peckish: 150
-      Starving: 50
+      Overfed: 80
+      Okay: 60
+      Peckish: 40
+      Starving: 15
       Dead: 0
-    baseDecayRate: 0.5
+    baseDecayRate: 0.1
+  - type: Reform
+    actionPrototype: AlienReformAction
+    reformTime: 0
+    popupText: вы выросли в взрослую особь
+    reformPrototype: MobXenoAlienOld
+  - type: GibAction
+    actionPrototype: AlienReformAction
+    allowedStates:
+    - Alive
+  - type: EmitSoundOnSpawn
+    sound:
+      path: /Audio/Effects/desecration-01.ogg
+  - type: ConditionalSpawner
+    prototypes:
+    - AlienXenoCocoonShucks
