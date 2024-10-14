@@ -1,6 +1,7 @@
 - type: entity
   parent: BaseItem
   id: Gavel
+  suffix: Voidkol
   name: молот правосудия
   description: Тишина в суде! Я тоже хочу что-то сказать..
   components:

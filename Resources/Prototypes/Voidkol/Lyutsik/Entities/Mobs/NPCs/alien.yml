@@ -1,6 +1,6 @@
 - type: entity
   id: MobXenoAlien
-  name: чужой
+  name: королева ксеноморфов
   suffix: Voidkol
   parent: SimpleSpaceMobBase
   description: Чрезвычайно агрессивная эндопаразитическая внеземная раса.
@@ -11,6 +11,7 @@
   - type: InputMover
   - type: MobMover
   - type: MindContainer
+  - type: Hands
   - type: Reactive
     groups:
       Flammable: [Touch]
@@ -107,9 +108,9 @@
     allowMovement: true
     allowSpeech: true
     makeSentient: true
-    name: ксеноморф
-    description: Королева ксеноморфов
-    rules: Сформируйте гнездо в самых тёмных уголках станции и сожрите экипаж.
+    name: Королева ксеноморфов
+    description: Ужас и страх всех тех, кто гуляет один в техах.
+    rules: Вы [color=red][bold]Командный антагонист[/bold][/color], сформируйте гнездо в самых тёмных уголках станции и сожрите экипаж.
     raffle:
       settings: default
   - type: GhostTakeoverAvailable

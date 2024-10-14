@@ -9,6 +9,8 @@
   - type: CombatMode
   - type: InputMover
   - type: MobMover
+  - type: Emoting
+  - type: Hands
   - type: Reactive
     groups:
       Flammable: [Touch]

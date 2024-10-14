@@ -67,9 +67,9 @@
     allowMovement: true
     allowSpeech: true
     makeSentient: true
-    name: ксеноморф
-    description: Молодой ксеноморф
-    rules: Кушайте, убивайте и слушайте маму.
+    name: Ксеноморф
+    description: Пополнение в гнезде ксеноморфов.
+    rules: Вы [color=red][bold]Командный антагонист[/bold][/color]. Кушайте, убивайте и слушайте маму.
     raffle:
       settings: default
   - type: GhostTakeoverAvailable

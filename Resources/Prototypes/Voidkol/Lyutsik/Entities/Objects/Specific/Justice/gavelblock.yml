@@ -1,6 +1,7 @@
 - type: entity
   parent: BaseItem
   id: GavelBlock
+  suffix: Voidkol
   name: подставка для молота
   description: Блок из твердой древесины, по которому при ударе молотком излучается аура власти.
   components:

@@ -128,7 +128,7 @@
       map: ["enum.TriggerVisualLayers.Base"]
   - type: ClusterGrenade
     fillPrototype: PelletClusterRubber
-    maxGrenadesCount: 30
+    maxGrenadesCount: 0
     grenadeType: enum.GrenadeType.Shoot
   - type: FlashOnTrigger
     range: 7
@@ -157,7 +157,7 @@
       map: ["enum.TriggerVisualLayers.Base"]
   - type: ClusterGrenade
     fillPrototype: PelletClusterIncendiary
-    maxGrenadesCount: 30
+    maxGrenadesCount: 0
     grenadeType: enum.GrenadeType.Shoot
   - type: OnUseTimerTrigger
     beepSound:
@@ -186,7 +186,7 @@
       map: ["enum.TriggerVisualLayers.Base"]
   - type: ClusterGrenade
     fillPrototype: PelletClusterLethal
-    maxGrenadesCount: 30
+    maxGrenadesCount: 0
     grenadeType: enum.GrenadeType.Shoot
   - type: OnUseTimerTrigger
     beepSound:
