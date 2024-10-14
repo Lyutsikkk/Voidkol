@@ -1,0 +1,41 @@
+- type: entity
+  name: огурец
+  parent: FoodProduceBase
+  id: FoodCucumber
+  description: Сила земли.
+  components:
+  - type: FlavorProfile
+    flavors:
+      - cucumber
+  - type: SolutionContainerManager
+    solutions:
+      food:
+        maxVol: 14
+        reagents:
+        - ReagentId: Nutriment
+          Quantity: 7
+        - ReagentId: Vitamin
+          Quantity: 3
+        - ReagentId: Water
+          Quantity: 4
+  - type: Sprite
+    sprite: Voidkol/Hydroponic/cucumber.rsi
+  - type: Produce
+    seedId: cucumber
+  - type: Extractable
+    grindableSolutionName: food
+    juiceSolution:
+      reagents:
+      - ReagentId: JuiceTomato
+        Quantity: 10
+  - type: Damageable
+    damageContainer: Biological
+  - type: DamageOnHighSpeedImpact
+    minimumSpeed: 0.1
+    damage:
+      types:
+        Blunt: 4
+  - type: Tag
+    tags:
+    - Cucumber
+    - Vegetable

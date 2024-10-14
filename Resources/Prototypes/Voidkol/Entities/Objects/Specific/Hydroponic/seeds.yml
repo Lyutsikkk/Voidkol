@@ -1,0 +1,9 @@
+- type: entity
+  parent: SeedBase
+  name: пакет семян огурцов
+  id: CucumberSeeds
+  components:
+    - type: Seed
+      seedId: cucumber
+    - type: Sprite
+      sprite: Voidkol/Hydroponic/cucumber.rsi

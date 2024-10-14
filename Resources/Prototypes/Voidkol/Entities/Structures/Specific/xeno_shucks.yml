@@ -1,0 +1,52 @@
+- type: entity
+  id: AlienXenoCocoonShucks
+  name: кокон ксеноморфа
+  suffix: Voidkol
+  components:
+  - type: RangedDamageSound
+    soundGroups:
+      Brute:
+        collection:
+          MeatBulletImpact
+    soundTypes:
+      Heat:
+        collection:
+          MeatLaserImpact
+  - type: Transform
+    anchored: true
+  - type: NpcFactionMember
+    factions:
+    - Xeno
+  - type: Clickable
+  - type: InteractionOutline
+  - type: Sprite
+    sprite: Voidkol/Mobs/Aliens/Xenos/xeno_cocoon.rsi
+    layers:
+      - state: dead
+  - type: Damageable
+    damageContainer: StructuralInorganic
+    damageModifierSet: Metallic
+  - type: Physics
+    bodyType: Static
+  - type: Fixtures
+    fixtures:
+      fix1:
+        shape:
+          !type:PhysShapeAabb
+          bounds: "-0.5,-0.5,0.5,0.5"
+        mask:
+          - TableMask
+        layer:
+          - TableLayer
+  - type: Destructible
+    thresholds:
+      - trigger:
+          !type:DamageTrigger
+          damage: 40
+        behaviors:
+          - !type:DoActsBehavior
+            acts: [ "Destruction" ]
+  - type: Climbable
+  - type: EmitSoundOnSpawn
+    sound:
+      path: /Audio/Effects/desecration-01.ogg

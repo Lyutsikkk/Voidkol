@@ -23,7 +23,7 @@
   - type: Puller
   - type: CombatMode
   - type: Sprite
-    sprite: Voidkol/Lyutsik/Mobs/Ghosts/ghost_admin.rsi
+    sprite: Voidkol/Mobs/Ghosts/ghost_admin.rsi
   - type: Physics
     ignorePaused: true
     bodyType: Kinematic

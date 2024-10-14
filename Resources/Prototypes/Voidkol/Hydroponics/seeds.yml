@@ -1,0 +1,33 @@
+- type: seed
+  id: cucumber
+  name: огурец
+  noun: seeds-noun-seeds
+  displayName: огуречный куст
+  plantRsi: Voidkol/Hydroponic/cucumber.rsi
+  packetPrototype: CucumberSeeds
+  productPrototypes:
+    - FoodCucumber
+  harvestRepeat: Repeat
+  growthStages: 4
+  lifespan: 25
+  maturation: 8
+  production: 4
+  yield: 2
+  potency: 10
+  waterConsumption: 0.60
+  nutrientConsumption: 0.40
+  idealLight: 8
+  idealHeat: 298
+  chemicals:
+    Nutriment:
+      Min: 1
+      Max: 7
+      PotencyDivisor: 14
+    Vitamin:
+      Min: 1
+      Max: 3
+      PotencyDivisor: 33
+    Water:
+      Min: 1
+      Max: 4
+      PotencyDivisor: 25
