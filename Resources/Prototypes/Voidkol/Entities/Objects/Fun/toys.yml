@@ -1,0 +1,197 @@
+- type: entity
+  parent: BasePlushie
+  id: ToysRed
+  suffix: Voidkol
+  name: арирал
+  description: Кошкоподобные инопланетные гуманоиды.
+  components:
+  - type: Sprite
+    sprite: Voidkol/Objects/Fun/toys.rsi
+    state: ariral_red
+  - type: EmitSoundOnUse
+    sound:
+      path: /Audio/Voidkol/Effects/Toys/plushie_ariral.ogg
+  - type: EmitSoundOnLand
+    sound:
+      path: /Audio/Voidkol/Effects/Toys/plushie_ariral.ogg
+  - type: EmitSoundOnActivate
+    sound:
+      path: /Audio/Voidkol/Effects/Toys/plushie_ariral.ogg
+  - type: EmitSoundOnTrigger
+    sound:
+      path: /Audio/Voidkol/Effects/Toys/plushie_ariral.ogg
+  - type: MeleeWeapon
+    soundHit:
+      path: /Audio/Voidkol/Effects/Toys/plushie_ariral.ogg
+  - type: Food
+    requiresSpecialDigestion: true
+    useSound:
+      path: /Audio/Voidkol/Effects/Toys/plushie_ariral.ogg
+  - type: Item
+    size: Normal
+    sprite: Voidkol/Objects/Fun/toys.rsi
+
+- type: entity
+  parent: BasePlushie
+  id: ToysBlue
+  suffix: Voidkol
+  name: арирал
+  description: Кошкоподобные инопланетные гуманоиды.
+  components:
+  - type: Sprite
+    sprite: Voidkol/Objects/Fun/toys.rsi
+    state: ariral_blue
+  - type: EmitSoundOnUse
+    sound:
+      path: /Audio/Voidkol/Effects/Toys/plushie_ariral.ogg
+  - type: EmitSoundOnLand
+    sound:
+      path: /Audio/Voidkol/Effects/Toys/plushie_ariral.ogg
+  - type: EmitSoundOnActivate
+    sound:
+      path: /Audio/Voidkol/Effects/Toys/plushie_ariral.ogg
+  - type: EmitSoundOnTrigger
+    sound:
+      path: /Audio/Voidkol/Effects/Toys/plushie_ariral.ogg
+  - type: MeleeWeapon
+    soundHit:
+      path: /Audio/Voidkol/Effects/Toys/plushie_ariral.ogg
+  - type: Food
+    requiresSpecialDigestion: true
+    useSound:
+      path: /Audio/Voidkol/Effects/Toys/plushie_ariral.ogg
+  - type: Item
+    size: Normal
+    sprite: Voidkol/Objects/Fun/toys.rsi
+
+- type: entity
+  parent: BasePlushie
+  id: ToysGreen
+  suffix: Voidkol
+  name: арирал
+  description: Кошкоподобные инопланетные гуманоиды.
+  components:
+  - type: Sprite
+    sprite: Voidkol/Objects/Fun/toys.rsi
+    state: ariral_green
+  - type: EmitSoundOnUse
+    sound:
+      path: /Audio/Voidkol/Effects/Toys/plushie_ariral.ogg
+  - type: EmitSoundOnLand
+    sound:
+      path: /Audio/Voidkol/Effects/Toys/plushie_ariral.ogg
+  - type: EmitSoundOnActivate
+    sound:
+      path: /Audio/Voidkol/Effects/Toys/plushie_ariral.ogg
+  - type: EmitSoundOnTrigger
+    sound:
+      path: /Audio/Voidkol/Effects/Toys/plushie_ariral.ogg
+  - type: MeleeWeapon
+    soundHit:
+      path: /Audio/Voidkol/Effects/Toys/plushie_ariral.ogg
+  - type: Food
+    requiresSpecialDigestion: true
+    useSound:
+      path: /Audio/Voidkol/Effects/Toys/plushie_ariral.ogg
+  - type: Item
+    size: Normal
+    sprite: Voidkol/Objects/Fun/toys.rsi
+
+- type: entity
+  parent: BasePlushie
+  id: PlushieKilla
+  suffix: Voidkol
+  name: килла
+  description: СБЭУ.
+  components:
+  - type: Sprite
+    sprite: Voidkol/Objects/Fun/toys.rsi
+    state: killa
+  - type: EmitSoundOnUse
+    sound:
+      path: /Audio/Voidkol/Effects/Toys/killa_toptop.ogg
+  - type: EmitSoundOnLand
+    sound:
+      path: /Audio/Voidkol/Effects/Toys/killa_slep.ogg
+  - type: EmitSoundOnActivate
+    sound:
+      path: /Audio/Voidkol/Effects/Toys/killa_toptop.ogg
+  - type: EmitSoundOnTrigger
+    sound:
+      path: /Audio/Voidkol/Effects/Toys/killa_slep.ogg
+  - type: MeleeWeapon
+    soundHit:
+      path: /Audio/Items/Toys/toysqueak1.ogg
+  - type: Food
+    requiresSpecialDigestion: true
+    useSound:
+      path: /Audio/Items/Toys/toysqueak1.ogg
+  - type: Item
+    size: Normal
+    sprite: Voidkol/Objects/Fun/toys.rsi
+
+- type: entity
+  parent: BasePlushie
+  id: PlushieTagilla
+  suffix: Voidkol
+  name: тагилла
+  description: СБЭУ.
+  components:
+  - type: Sprite
+    sprite: Voidkol/Objects/Fun/toys.rsi
+    state: tagilla
+  - type: EmitSoundOnUse
+    sound:
+      path: /Audio/Voidkol/Effects/Toys/tagilla_glaza.ogg
+  - type: EmitSoundOnLand
+    sound:
+      path: /Audio/Voidkol/Effects/Toys/tagilla_molot.ogg
+  - type: EmitSoundOnActivate
+    sound:
+      path: /Audio/Voidkol/Effects/Toys/tagilla_glaza.ogg
+  - type: EmitSoundOnTrigger
+    sound:
+      path: /Audio/Voidkol/Effects/Toys/tagilla_molot.ogg
+  - type: MeleeWeapon
+    soundHit:
+      path: /Audio/Items/Toys/toysqueak1.ogg
+  - type: Food
+    requiresSpecialDigestion: true
+    useSound:
+      path: /Audio/Items/Toys/toysqueak1.ogg
+  - type: Item
+    size: Normal
+    sprite: Voidkol/Objects/Fun/toys.rsi
+
+- type: entity
+  parent: BasePlushie
+  id: PlushieGuppy
+  suffix: Voidkol
+  name: гаппи
+  description: Милый кот одного печального парнишки.
+  components:
+  - type: Sprite
+    sprite: Voidkol/Objects/Fun/toys.rsi
+    state: guppy
+  - type: EmitSoundOnUse
+    sound:
+      path: /Audio/Voidkol/Effects/Toys/lala.ogg
+  - type: EmitSoundOnLand
+    sound:
+      path: /Audio/Voidkol/Effects/Toys/ufff.ogg
+  - type: EmitSoundOnActivate
+    sound:
+      path: /Audio/Voidkol/Effects/Toys/lala.ogg
+  - type: EmitSoundOnTrigger
+    sound:
+      path: /Audio/Voidkol/Effects/Toys/ufff.ogg
+  - type: MeleeWeapon
+    soundHit:
+      path: /Audio/Items/Toys/toysqueak1.ogg
+  - type: Food
+    requiresSpecialDigestion: true
+    useSound:
+      path: /Audio/Items/Toys/toysqueak1.ogg
+  - type: Item
+    size: Normal
+    sprite: Voidkol/Objects/Fun/toys.rsi

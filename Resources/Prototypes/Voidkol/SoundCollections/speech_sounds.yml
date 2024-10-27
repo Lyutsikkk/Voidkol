@@ -1,0 +1,8 @@
+- type: speechSounds
+  id: AlienSpeech
+  saySound:
+    path: /Audio/Voidkol/Voice/Talk/alienspeak.ogg
+  askSound:
+    path: /Audio/Voidkol/Voice/Talk/alienspeak_ask.ogg
+  exclaimSound:
+    path: /Audio/Voidkol/Voice/Talk/alienspeak_exclaim.ogg

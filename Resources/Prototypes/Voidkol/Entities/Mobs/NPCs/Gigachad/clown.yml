@@ -1,0 +1,130 @@
+- type: entity
+  name: Гигахонк
+  id: MobGigachadClown
+  parent: [ SimpleMobBase, MobCombat ]
+  suffix: Voidkol
+  description: Дитя робаста и Хонкматери.
+  components:
+  - type: Body
+    prototype: Human
+  - type: InputMover
+  - type: MobMover
+  - type: MindContainer
+  - type: Temperature
+  - type: NoSlip
+  - type: SSDIndicator
+  - type: Hands
+    showInHands: false
+  - type: Puller
+    needsHands: false
+  - type: Vocal
+    sounds:
+      Male: MaleHuman
+      Unsexed: MaleHuman
+  - type: Sprite
+    drawdepth: Mobs
+    layers:
+    - map: ["enum.DamageStateVisualLayers.Base"]
+      state: alive
+      sprite: Voidkol/Mobs/Gigachad/clown.rsi
+  - type: Fixtures
+    fixtures:
+      fix1:
+        shape:
+          !type:PhysShapeCircle
+          radius: 0.35
+        density: 185
+        restitution: 0.0
+        mask:
+        - MobMask
+        layer:
+        - MobLayer
+  - type: MobState
+    allowedStates:
+    - Alive
+    - Critical
+    - Dead
+  - type: MobThresholds
+    thresholds:
+      0: Alive
+      200: Critical
+      300: Dead
+  - type: SlowOnDamage
+    speedModifierThresholds:
+      150: 0.7
+  - type: Stamina
+    critThreshold: 200
+  - type: Hunger
+    thresholds:
+      Overfed: 250
+      Okay: 200
+      Peckish: 100
+      Starving: 50
+      Dead: 0
+    baseDecayRate: 0.01666666666
+  - type: Thirst
+    thresholds:
+      OverHydrated: 200
+      Okay: 150
+      Thirsty: 100
+      Parched: 50
+      Dead: 0
+    baseDecayRate: 0.1
+  - type: CombatMode
+    canDisarm: true
+  - type: MeleeWeapon
+    altdisarm: true
+    soundHit:
+      collection: Punch
+    angle: 30
+    animation: WeaponArcFist
+    attackRate: 1
+    damage:
+      types:
+        Blunt: 15
+        Slash: 10
+        Structural: 15
+  - type: StaminaDamageOnHit
+    damage: 120
+  - type: MeleeThrowOnHit
+    speed: 25
+  - type: DamageStateVisuals
+    rotate: true
+    states:
+      Alive:
+        Base: alive
+      Critical:
+        Base: crit
+      Dead:
+        Base: dead
+  - type: Bloodstream
+    bloodReagent: Blood
+    bloodMaxVolume: 500
+  - type: Prying
+    pryPowered: true
+    force: true
+    speedModifier: 15.0
+    useSound:
+      path: /Audio/Machines/airlock_creaking.ogg
+  - type: MovementSpeedModifier
+    baseWalkSpeed : 4
+    baseSprintSpeed : 4.5
+  - type: StatusEffects
+    allowed:
+    - Stun
+    - KnockedDown
+    - SlowedDown
+    - SeeingRainbows
+    - Electrocution
+    - Drunk
+    - SlurredSpeech
+    - RatvarianLanguage
+    - Muted
+    - ForcedSleep
+    - StaminaModifier
+    - RadiationProtection
+    - Drowsiness
+    - Adrenaline
+  - type: FootstepModifier
+    footstepSoundCollection:
+      collection: FootstepClown

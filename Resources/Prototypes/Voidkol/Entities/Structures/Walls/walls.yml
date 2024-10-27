@@ -1,0 +1,28 @@
+- type: entity
+  parent: BaseWall
+  id: AlienXenoWall
+  name: странная стена
+  description: липкая, склизкая и пульсирует
+  components:
+  - type: Tag
+    tags:
+      - Wall
+      - Structure
+  - type: Sprite
+    sprite: Voidkol/Structures/Walls/alien.rsi
+  - type: Icon
+    sprite: Voidkol/Structures/Walls/alien.rsi
+  - type: Construction
+    graph: Girder
+    node: AlienXenoWall
+  - type: Destructible
+    thresholds:
+    - trigger:
+        !type:DamageTrigger
+        damage: 100
+      behaviors:
+      - !type:DoActsBehavior
+        acts: [ "Destruction" ]
+  - type: IconSmooth
+    key: walls
+    base: alien

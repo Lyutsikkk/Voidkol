@@ -1,0 +1,155 @@
+- type: entity
+  id: MobXenoAlien
+  name: королева ксеноморфов
+  suffix: Voidkol
+  parent: SimpleSpaceMobBase
+  description: Чрезвычайно агрессивная эндопаразитическая внеземная раса.
+  components:
+  - type: AlienXeno
+  - type: Insulated
+  - type: CombatMode
+  - type: InputMover
+  - type: MobMover
+  - type: MindContainer
+  - type: Hands
+  - type: Reactive
+    groups:
+      Flammable: [Touch]
+      Extinguish: [Touch]
+  - type: HTN
+    rootTask:
+      task: XenoCompound
+    blackboard:
+      NavClimb: !type:Bool
+        true
+      NavInteract: !type:Bool
+        true
+      NavPry: !type:Bool
+        true
+      NavSmash: !type:Bool
+        true
+  - type: NpcFactionMember
+    factions:
+    - Xeno
+  - type: Vocal
+    sounds:
+      Unsexed: UnsexedAlien
+  - type: Speech
+    speechSounds: AlienSpeech
+  - type: Puller
+    needsHands: false
+  - type: Sprite
+    drawdepth: Mobs
+    sprite: Voidkol/Mobs/Aliens/Xenos/alien.rsi
+    layers:
+    - map: ["enum.DamageStateVisualLayers.Base", "movement"]
+      state: alien
+  - type: SpriteMovement
+    movementLayers:
+      movement:
+        state: alien-moving
+    noMovementLayers:
+      movement:
+        state: alien
+  - type: Fixtures
+    fixtures:
+      fix1:
+        shape:
+          !type:PhysShapeCircle
+          radius: 0.25
+        density: 1000
+        mask:
+        - MobMask
+        layer:
+        - MobLayer
+  - type: MobState
+    allowedStates:
+    - Alive
+    - Critical
+    - Dead
+  - type: MobThresholds
+    thresholds:
+      0: Alive
+      650: Critical
+      700: Dead
+  - type: SlowOnDamage
+    speedModifierThresholds:
+      600: 0.7
+  - type: Stamina
+    critThreshold: 1000
+  - type: Bloodstream
+    bloodReagent: FluorosulfuricAcid
+    bloodMaxVolume: 650
+  - type: MeleeWeapon
+    altDisarm: false
+    soundHit:
+      path: /Audio/Weapons/Xeno/alien_claw_flesh3.ogg
+    damage:
+      types:
+        Brute: 25
+        Slash: 30
+        Structural: 50
+  - type: DamageStateVisuals
+    rotate: true
+    states:
+      Alive:
+        Base: alien
+      Critical:
+        Base: crit
+      Dead:
+        Base: dead
+  - type: Butcherable
+    butcheringType: Spike
+    spawned:
+    - id: FoodMeatXeno
+      amount: 30
+  - type: GhostRole
+    allowMovement: true
+    allowSpeech: true
+    makeSentient: true
+    name: Королева ксеноморфов
+    description: Ужас и страх всех тех, кто гуляет один в техах.
+    rules: Вы [color=red][bold]Командный антагонист[/bold][/color], сформируйте гнездо в самых тёмных уголках станции и сожрите экипаж.
+    raffle:
+      settings: default
+  - type: GhostTakeoverAvailable
+  - type: TypingIndicator
+    proto: alien
+  - type: Temperature
+    heatDamageThreshold: 360
+    coldDamageThreshold: -150
+    currentTemperature: 310.15
+  - type: Tag
+    tags:
+      - CannotSuicide
+      - DoorBumpOpener
+      - FootstepSound
+  - type: NoSlip
+  - type: Perishable
+    molsPerSecondPerUnitMass: 0.0005
+  - type: Devourer
+    foodPreference: Humanoid
+    shouldStoreDevoured: true
+    devourTime: 1.5
+    chemical: Ichor
+    healRate: 15.0
+    whitelist:
+      components:
+      - MobState
+  - type: Prying
+    pryPowered: true
+    force: true
+    speedModifier: 9.0
+    useSound:
+      path: /Audio/Machines/airlock_creaking.ogg
+  - type: Hunger
+    currentHunger: 200
+    thresholds:
+      Overfed: 200
+      Okay: 150
+      Peckish: 100
+      Starving: 50
+      Dead: 0
+    baseDecayRate: 0.5
+  - type: MovementSpeedModifier
+    baseSprintSpeed: 5.5

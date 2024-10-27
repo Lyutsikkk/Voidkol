@@ -1,0 +1,149 @@
+- type: entity
+  id: MobXenoAlienBaby
+  name: ксеноморф
+  suffix: Voidkol
+  parent: SimpleSpaceMobBase
+  description: Чрезвычайно агрессивная эндопаразитическая внеземная раса.
+  components:
+  - type: Insulated
+  - type: CombatMode
+  - type: InputMover
+  - type: MobMover
+  - type: Emoting
+  - type: Hands
+  - type: Reactive
+    groups:
+      Flammable: [Touch]
+      Extinguish: [Touch]
+  - type: HTN
+    rootTask:
+      task: XenoCompound
+    blackboard:
+      NavClimb: !type:Bool
+        true
+      NavInteract: !type:Bool
+        true
+      NavPry: !type:Bool
+        true
+      NavSmash: !type:Bool
+        true
+  - type: NpcFactionMember
+    factions:
+    - Xeno
+  - type: Vocal
+    sounds:
+      Unsexed: UnsexedAlien
+  - type: Speech
+    speechSounds: AlienSpeech
+  - type: Puller
+    needsHands: false
+  - type: Sprite
+    drawdepth: Mobs
+    sprite: Voidkol/Mobs/Aliens/Xenos/alien_baby.rsi
+    layers:
+    - map: ["enum.DamageStateVisualLayers.Base", "movement"]
+      state: alien
+  - type: SpriteMovement
+    movementLayers:
+      movement:
+        state: alien-moving
+    noMovementLayers:
+      movement:
+        state: alien
+  - type: Fixtures
+    fixtures:
+      fix1:
+        shape:
+          !type:PhysShapeCircle
+          radius: 0.35
+        density: 130
+        mask:
+        - MobMask
+        layer:
+        - MobLayer
+  - type: MobState
+    allowedStates:
+    - Alive
+    - Critical
+    - Dead
+  - type: MobThresholds
+    thresholds:
+      0: Alive
+      100: Critical
+      120: Dead
+  - type: SlowOnDamage
+    speedModifierThresholds:
+      120: 0.5
+  - type: Stamina
+    critThreshold: 400
+  - type: Bloodstream
+    bloodReagent: FluorosulfuricAcid
+    bloodMaxVolume: 650
+  - type: MeleeWeapon
+    altDisarm: false
+    soundHit:
+      path: /Audio/Weapons/Xeno/alien_claw_flesh3.ogg
+    damage:
+      types:
+        Brute: 10
+        Slash: 5
+        Structural: 5
+  - type: DamageStateVisuals
+    rotate: true
+    states:
+      Alive:
+        Base: alien
+      Critical:
+        Base: crit
+      Dead:
+        Base: dead
+  - type: Butcherable
+    butcheringType: Spike
+    spawned:
+    - id: FoodMeatXeno
+      amount: 10
+  - type: TypingIndicator
+    proto: alien
+  - type: Temperature
+    heatDamageThreshold: 360
+    coldDamageThreshold: -150
+    currentTemperature: 310.15
+  - type: Tag
+    tags:
+      - CannotSuicide
+      - DoorBumpOpener
+      - FootstepSound
+      - AlienXeno
+  - type: NoSlip
+  - type: Perishable
+    molsPerSecondPerUnitMass: 0.0005
+  - type: Prying
+    pryPowered: true
+    force: true
+    speedModifier: 5.0
+    useSound:
+      path: /Audio/Machines/airlock_creaking.ogg
+  - type: Hunger
+    currentHunger: 150
+    thresholds:
+      Overfed: 80
+      Okay: 60
+      Peckish: 40
+      Starving: 15
+      Dead: 0
+    baseDecayRate: 0.1
+  - type: Reform
+    actionPrototype: AlienReformAction
+    reformTime: 0
+    popupText: вы выросли в взрослую особь
+    reformPrototype: MobXenoAlienOld
+  - type: GibAction
+    actionPrototype: AlienReformAction
+    allowedStates:
+    - Alive
+  - type: EmitSoundOnSpawn
+    sound:
+      path: /Audio/Effects/desecration-01.ogg
+  - type: ConditionalSpawner
+    prototypes:
+    - AlienXenoCocoonShucks

@@ -1,0 +1,11 @@
+- type: entity
+  parent: ClothingUniformBase
+  id: SingletSkuf
+  suffix: Voidkol
+  name: тельняшка
+  description: Сет твоего бати, спортивки и тельняха с пивным пятном.
+  components:
+  - type: Sprite
+    sprite: Voidkol/Clothing/Uniforms/Jumpsuit/skuf.rsi
+  - type: Clothing
+    sprite: Voidkol/Clothing/Uniforms/Jumpsuit/skuf.rsi

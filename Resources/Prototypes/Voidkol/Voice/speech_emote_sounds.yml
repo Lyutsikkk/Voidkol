@@ -1,0 +1,7 @@
+- type: emoteSounds
+  id: UnsexedAlien
+  params:
+    variation: 0.125
+  sounds:
+    Scream:
+      collection: AlienScreams

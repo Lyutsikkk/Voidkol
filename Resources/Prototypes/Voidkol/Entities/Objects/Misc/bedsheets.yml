@@ -1,0 +1,11 @@
+- type: entity
+  id: BedsheetRUS
+  parent: BedsheetBase
+  name: одеяло патриота
+  description: Удивительно мягкое льняное одеяло.
+  components:
+  - type: Sprite
+    state: sheetRUS
+    sprite: Voidkol/Objects/Misc/bedsheets.rsi
+  - type: Clothing
+    sprite: Voidkol/Clothing/Neck/Bedsheets/RUS.rsi

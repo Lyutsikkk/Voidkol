@@ -1,0 +1,20 @@
+- type: entity
+  id: FloorTileItemAlienXeno
+  parent: FloorTileItemBase
+  name: чужеродная поверхность
+  components:
+  - type: Sprite
+    sprite: Voidkol/Objects/Tiles/tile.rsi
+    state: alien
+  - type: Item
+    sprite: Voidkol/Objects/Tiles/tile.rsi
+    heldPrefix: alien
+  - type: FloorTile
+    outputs:
+    - Plating
+    - FloorXeno
+  - type: Stack
+    stackType: FloorTileFlesh
+  - type: Construction
+    graph: TileFlesh
+    node: fleshTile

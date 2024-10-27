@@ -1,0 +1,99 @@
+- type: entity
+  id: AlienXenoCocoon
+  name: кокон ксеноморфа
+  suffix: Voidkol
+  parent: SimpleSpaceMobBase
+  description: странный кокон
+  components:
+  - type: Insulated
+  - type: Reactive
+    groups:
+      Flammable: [Touch]
+      Extinguish: [Touch]
+  - type: MindContainer
+  - type: NpcFactionMember
+    factions:
+    - Xeno
+  - type: Transform
+    anchored: true
+    noRot: true
+  - type: Sprite
+    drawdepth: Mobs
+    sprite: Voidkol/Mobs/Aliens/Xenos/xeno_cocoon.rsi
+    layers:
+    - map: ["enum.DamageStateVisualLayers.Base"]
+      state: alien
+  - type: DamageStateVisuals
+    rotate: true
+    states:
+      Alive:
+        Base: alien
+      Critical:
+        Base: crit
+      Dead:
+        Base: dead
+  - type: Fixtures
+    fixtures:
+      fix1:
+        shape:
+          !type:PhysShapeCircle
+          radius: 0.25
+        density: 1000
+        mask:
+        - MobMask
+        layer:
+        - MobLayer
+  - type: MobState
+    allowedStates:
+    - Alive
+    - Dead
+  - type: MobThresholds
+    thresholds:
+      0: Alive
+      100: Dead
+  - type: Stamina
+    critThreshold: 1000
+  - type: Bloodstream
+    bloodReagent: FluorosulfuricAcid
+    bloodMaxVolume: 650
+  - type: Puller
+  - type: Butcherable
+    butcheringType: Spike
+    spawned:
+    - id: FoodMeatXeno
+      amount: 5
+  - type: GhostRole
+    allowMovement: true
+    allowSpeech: true
+    makeSentient: true
+    name: Ксеноморф
+    description: Пополнение в гнезде ксеноморфов.
+    rules: Вы [color=red][bold]Командный антагонист[/bold][/color]. Кушайте, убивайте и слушайте маму.
+    raffle:
+      settings: default
+  - type: GhostTakeoverAvailable
+  - type: TypingIndicator
+    proto: alien
+  - type: Temperature
+    heatDamageThreshold: 360
+    coldDamageThreshold: -150
+    currentTemperature: 310.15
+  - type: Tag
+    tags:
+      - CannotSuicide
+      - DoorBumpOpener
+      - FootstepSound
+  - type: NoSlip
+  - type: Perishable
+    molsPerSecondPerUnitMass: 0.0005
+  - type: Reform
+    actionPrototype: AlienBabyAction
+    reformTime: 0
+    popupText: вы вылезли из кокона
+    reformPrototype: MobXenoAlienBaby
+  - type: GibAction
+    actionPrototype: AlienBabyAction
+  - type: PointLight
+    color: "#FF00FF"
+    radius: 1.5
+    energy: 1

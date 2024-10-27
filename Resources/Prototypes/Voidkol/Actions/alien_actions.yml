@@ -1,0 +1,59 @@
+- type: entity
+  id: AlienCocoonAction
+  name: Сформировать кокон
+  description: Создайте потомство, чтоб получить поддержку.
+  components:
+  - type: InstantAction
+    useDelay: 4
+    icon:
+      sprite: Voidkol/Interface/Actions/alien_xeno.rsi
+      state: spawn_cocoon
+    event: !type:AlienCocoonActionEvent
+
+- type: entity
+  id: AlienWallAction
+  name: Сформировать стену
+  description: Сформируйте стену из органики.
+  components:
+  - type: InstantAction
+    useDelay: 4
+    icon:
+      sprite: Voidkol/Interface/Actions/alien_xeno.rsi
+      state: spawn_wall
+    event: !type:AlienWallActionEvent
+
+- type: entity
+  id: AlienDoorAction
+  name: Сформировать проход
+  description: Сформируйте проход в стене.
+  components:
+  - type: InstantAction
+    useDelay: 4
+    icon:
+      sprite: Voidkol/Interface/Actions/alien_xeno.rsi
+      state: spawn_door
+    event: !type:AlienDoorActionEvent
+
+- type: entity
+  id: AlienBabyAction
+  name: Выгляньте из кокона
+  description: Ну же, вылезай, мама ксено тебя ждёт!
+  components:
+  - type: InstantAction
+    icon:
+      sprite: Voidkol/Interface/Actions/alien_xeno.rsi
+      state: aww_minimonstr
+    event: !type:ReformEvent {}
+    useDelay: 240
+
+- type: entity
+  id: AlienReformAction
+  name: Эволюция
+  description: Эволюционируйте и вырастите в взрослую особь.
+  components:
+  - type: InstantAction
+    icon:
+      sprite: Voidkol/Interface/Actions/alien_xeno.rsi
+      state: reform_full_alien
+    event: !type:ReformEvent {}
+    useDelay: 360

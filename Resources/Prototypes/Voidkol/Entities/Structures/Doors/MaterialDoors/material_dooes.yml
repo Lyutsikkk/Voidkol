@@ -1,0 +1,33 @@
+- type: entity
+  id: AlienXenoDoor
+  name: отверстие в стене
+  parent: BaseMaterialDoorNavMap
+  description: Лучше не лезть туда..
+  components:
+  - type: Sprite
+    sprite: Voidkol/Structures/Doors/MineralDoors/alien_xeno.rsi
+    layers:
+    - state: closed
+      map: ["enum.DoorVisualLayers.Base"]
+  - type: Door
+    bumpOpen: false
+    clickOpen: true
+    closeTimeOne: 0.2
+    closeTimeTwo: 0.6
+    openTimeOne: 0.6
+    openTimeTwo: 0.2
+    openSound:
+      path: /Audio/Voidkol/Effects/Door/alienxeno_open.ogg
+    closeSound:
+      path: /Audio/Voidkol/Effects/Door/alienxeno_open.ogg
+  - type: Destructible
+    thresholds:
+    - trigger:
+        !type:DamageTrigger
+        damage: 100
+      behaviors:
+      - !type:DoActsBehavior
+        acts: ["Destruction"]
+  - type: Construction
+    graph: DoorVoidkol
+    node: alienXenoDoor
