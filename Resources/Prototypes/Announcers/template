@@ -29,130 +29,130 @@
         variation: 0 # Probably wouldn't sound very good unless very low, 0.15 or less is normally used #? Default is 0
 
     # Communications
-    - id: announce # Communications console
+    - id: announce # Объявление
       path: comms/announce.ogg
-    - id: attention # Generic alert sound # Should be different from fallback but it's very similar
+    - id: attention # Объявление (Внимание)
       path: comms/attention.ogg
-    - id: commandReport # Station goal, Central Command messages, etc
+    - id: commandReport # Сообщение ЦК
       path: comms/command_report.ogg
-    - id: spawnAnnounce # Captain join # TODO That system is annoyingly not modular
+    - id: spawnAnnounce # Капитан явился на станцию
       path: comms/spawn_announce.ogg
-    - id: war # Nuclear Operative declaration of war
+    - id: war # Оперативное объявление ядерной войны
       path: comms/war.ogg
-    - id: nukeCodes # The station has been send nuclear activation codes
-      path: comms/nuke_codes.ogg # Or command_report.ogg if you want
-    - id: nukeArm # The nuke is active and ticking
+    - id: nukeCodes # На станцию были отправлены коды ядерной активации
+      path: comms/nuke_codes.ogg
+    - id: nukeArm # Ядерная бомба активна и тикает
       path: comms/nuke_arm.ogg
-    - id: nukeDisarm # The nuke has been disarmed
+    - id: nukeDisarm # Ядерная бомба была обезврежена
       path: comms/nuke_disarm.ogg
-    - id: welcome # The shift has started
+    - id: welcome # Старт раунда
       path: comms/welcome.ogg
 
     # Alert levels
-    - id: alertGreen # Everything is fine
+    - id: alertGreen # Зелёный
       path: alerts/green.ogg
-    - id: alertBlue # Something is amiss
+    - id: alertBlue # Синий
       path: alerts/blue.ogg
-    - id: alertViolet # Viral infection or misc medical emergencies, listen to Medical
+    - id: alertViolet # Фиолетовый (болезнь)
       path: alerts/violet.ogg
-    - id: alertWhite # Glimmer is too high, listen to Epistemics
+    - id: alertWhite # Белый
       path: alerts/white.ogg
-    - id: alertYellow # The station is being largely damaged, listen to Engineering
+    - id: alertYellow # Жёлтый
       path: alerts/yellow.ogg
-    - id: alertRed # Generic many things are bad, listen to Security
+    - id: alertRed # Красный
       path: alerts/red.ogg
-    - id: alertGamma # There is a massive immediate threat to the station, listen to Central Command
+    - id: alertGamma # Гамма
       path: alerts/gamma.ogg
-    - id: alertDelta # The station is being or about to be massively destroyed, run for your life
+    - id: alertDelta # Дельта
       path: alerts/delta.ogg
-    - id: alertEpsilon # The station has been terminated, good luck survivors!
+    - id: alertEpsilon # Эпсилон
       path: alerts/epsilon.ogg
 
     # Events
     ## Wizard's Den
     ### Mid-Round Antagonists
-    - id: ninjaHacking # A Ninja is hacking something
+    - id: ninjaHacking # Ниндзя что-то взламывает
       path: comms/ninja_hacking.ogg
-    - id: powersinkExplosion # A power sink is about to overcharge and explode
+    - id: powersinkExplosion # Источник энергии вот-вот разрядится и взорвется
       path: comms/powersink_explosion.ogg
     ### Events
-    - id: anomalySpawn # An anomaly has spawned in a random place
+    - id: anomalySpawn # Аномалия возникла в случайном месте
       path: events/anomaly.ogg
-    - id: bluespaceArtifact # An artifact has spawned in a random place
+    - id: bluespaceArtifact # Артефакт появился в случайном месте
       path: events/bluespace_artifact.ogg
-    - id: bluespaceLocker # Two random lockers now share inventories
+    - id: bluespaceLocker # Два случайных шкафчика теперь имеют общие запасы (Блюспейс  шкафы)
       path: events/bluespace_locker.ogg
-    - id: breakerFlip # A few random APCs have been disabled, ask Engineering to fix them
+    - id: breakerFlip # Несколько случайных АСУ ТП были отключены, обратитесь к инженерам за их устранением.
       path: events/breaker_flip.ogg
-    - id: bureaucraticError # Random jobs have been added, removed, or made infinite
+    - id: bureaucraticError # Случайные задания были добавлены, удалены или увеличены до бесконечности
       path: events/bureaucratic_error.ogg
-    - id: clericalError # Random crew are removed from the manifest
+    - id: clericalError # Случайные члены экипажа удаляются из списка
       path: events/clerical_error.ogg
-    - id: carpRift # A dragon's carp rift is active
+    - id: carpRift # Разлом драконьего карпа активен
       path: events/carp_rift.ogg
-    - id: revenantSpawn # A revenant has spawned (by a prober?)
+    - id: revenantSpawn # Появился ревенант
       path: events/revenant_spawn.ogg
-    - id: gasLeak # A random gas is coming out of a random vent
+    - id: gasLeak # Случайный газ выходит из случайного вентиляционного отверстия
       path: events/gas_leak.ogg
-    - id: gasLeakComplete # Gas has stopped coming out of a vent
+    - id: gasLeakComplete # Газ перестал поступать из вентиляционного отверстия
       path: events/gas_leak-complete.ogg
-    - id: kudzuGrowth # Kudzu is growing in a random place
+    - id: kudzuGrowth # Кудзу растет в случайном месте
       path: events/kudzu_growth.ogg
-    - id: meteorSwarm # Meteors are flying at the station, stay away from windows
+    - id: meteorSwarm # На станцию летят метеориты
       path: events/meteors.ogg
-    - id: meteorSwarmComplete # Meteors have stopped flying at the station
+    - id: meteorSwarmComplete # Метеориты перестали падать на станцию
       path: events/meteors-complete.ogg
-    - id: mouseMigration # Several mice have appeared in a random place
+    - id: mouseMigration # Несколько мышей появились в случайном месте
       path: events/mouse_migration.ogg
-    - id: cockroachMigration # Several cockroaches have appeared in a random place
+    - id: cockroachMigration # Несколько тараканов появились в случайном месте
       path: events/cockroach_migration.ogg
-    - id: powerGridCheck # The station's power is offline for some moments
+    - id: powerGridCheck # На некоторое время станция отключилась от электроснабжения
       path: events/power_grid_check.ogg
-    - id: powerGridCheckComplete # The station's power is online again
+    - id: powerGridCheckComplete # Станция снова подключена к электросети
       path: events/power_grid_check-complete.ogg
-    - id: randomSentience # A random few animals have become sentient
+    - id: randomSentience # Несколько случайных животных стали разумными
       path: events/random_sentience.ogg
-    - id: solarFlare # A solar flare is nearby, may mess with comms and electronics
+    - id: solarFlare # Поблизости вспышка на солнце, которая может нарушить работу систем связи и электроники
       path: events/solar_flare.ogg
-    - id: solarFlareComplete # The solar flare has passed
+    - id: solarFlareComplete # Вспышка на солнце прошла
       path: events/solar_flare-complete.ogg
-    - id: ventClog # A random reagent is coming out of a scrubber
+    - id: ventClog # Из скруббера поступает случайный реагент
       path: events/vent_clog.ogg
-    - id: slimesSpawn # Some simple slimes are appearing in vents
+    - id: slimesSpawn # В вентиляционных отверстиях появляются какие-то простые шламы
       path: events/slimes_spawn.ogg
-    - id: spiderSpawn # Some simple spiders are appearing in vents
+    - id: spiderSpawn # В вентиляционных отверстиях появляются несколько простых пауков
       path: events/spider_spawn.ogg
-    - id: immovableRodSpawn # The station is moving into an immovable rod, don't die or something, ask Engineering for help repairing it
+    - id: immovableRodSpawn # Станция превращается в неподвижный стержень, не умирайте или что-то в этом роде, обратитесь к инженерам за помощью в ремонте
       path: events/immovable_rod_spawn.ogg
-    - id: ionStorm # AI-controlled equipment are now weird, check their laws
+    - id: ionStorm # Оборудование, управляемое искусственным интеллектом, теперь стало странным, проверьте их законы
       path: events/ion_storm.ogg
     ## Delta-V
-    - id: xenoVents # Xenomorphs are coming out of vents
+    - id: xenoVents # Ксеноморфы вылезают из вентиляционных отверстий
       path: events/xeno_vents.ogg
     ## NyanoTrasen
-    - id: noosphericStorm # A large amount of glimmer has joined the station and made people psionic
+    - id: noosphericStorm # Большое количество мерцающих присоединилось к станции и сделало людей псиониками
       path: events/noospheric_storm.ogg
 
     # Shuttle
-    - id: shuttleCalled # The shuttle is on its way
+    - id: shuttleCalled # Шаттл уже в пути
       path: shuttle/called.ogg
-    - id: shuttleRecalled # The shuttle is going back to Central Command
+    - id: shuttleRecalled # Шаттл возвращается в Центральное управление
       path: shuttle/recalled.ogg
-    - id: shuttleDock # The shuttle has arrived at the station
+    - id: shuttleDock # Шаттл прибыл на станцию
       path: shuttle/dock.ogg
-    - id: shuttleNearby # The shuttle couldn't dock, it's at a specified location
+    - id: shuttleNearby # Шаттл не смог причалить, он находится в указанном месте
       path: shuttle/nearby.ogg
-    - id: shuttleGoodLuck # The shuttle could not find its way to the station, good luck crew
+    - id: shuttleGoodLuck # Шаттл не смог найти дорогу к станции, желаю удачи экипажу
       path: shuttle/good_luck.ogg
-    - id: shuttleAuthAdded # One of few have added their acceptance to early launching
+    - id: shuttleAuthAdded # Один из немногих, кто добавил свое согласие к раннему запуску
       path: shuttle/auth_added.ogg
-    - id: shuttleAuthRevoked # One of few have revoked their acceptance to early launching
+    - id: shuttleAuthRevoked # Один из немногих отозвал свое согласие на досрочный запуск
       path: shuttle/auth_revoked.ogg
-    - id: shuttleAlmostLaunching # The shuttle will leave to FTL in 10 seconds
+    - id: shuttleAlmostLaunching # Шаттл отправится на сверхсветовую скорость через 10 секунд
       path: shuttle/almost_launching.ogg
-    - id: shuttleLeft # The shuttle has left the station
+    - id: shuttleLeft # Шаттл покинул станцию
       path: shuttle/left.ogg
 
     # Fallback # REQUIRED
-    - id: fallback # Any announcement sent without a valid announcement on this announcer will use this
+    - id: fallback # Дефолтный, если нету озвучки
       path: fallback.ogg
