@@ -9,3 +9,51 @@
     sprite: Voidkol/Clothing/Uniforms/Jumpsuit/skuf.rsi
   - type: Clothing
     sprite: Voidkol/Clothing/Uniforms/Jumpsuit/skuf.rsi
+
+- type: entity
+  parent: ClothingUniformBase
+  id: SingletMilitarypixelFlora
+  suffix: Voidkol
+  name: лесная пикселька
+  description: Китель и штаны военнослужащего корпорации Voidkol.
+  components:
+  - type: Sprite
+    sprite: Voidkol/Clothing/Uniforms/Jumpsuit/pikselka_flora.rsi
+  - type: Clothing
+    sprite: Voidkol/Clothing/Uniforms/Jumpsuit/pikselka_flora.rsi
+
+- type: entity
+  parent: ClothingUniformBase
+  id: SingletMilitarypixelHaki
+  suffix: Voidkol
+  name: пустынная пикселька
+  description: Китель и штаны военнослужащего корпорации Voidkol.
+  components:
+  - type: Sprite
+    sprite: Voidkol/Clothing/Uniforms/Jumpsuit/pikselka_haki.rsi
+  - type: Clothing
+    sprite: Voidkol/Clothing/Uniforms/Jumpsuit/pikselka_haki.rsi
+
+- type: entity
+  parent: ClothingUniformBase
+  id: SingletMilitarypixelSneg
+  suffix: Voidkol
+  name: снежная пикселька
+  description: Китель и штаны военнослужащего корпорации Voidkol.
+  components:
+  - type: Sprite
+    sprite: Voidkol/Clothing/Uniforms/Jumpsuit/pikselka_sneg.rsi
+  - type: Clothing
+    sprite: Voidkol/Clothing/Uniforms/Jumpsuit/pikselka_sneg.rsi
+
+- type: entity
+  parent: ClothingUniformBase
+  id: SingletMilitarypixelGvard
+  suffix: Voidkol
+  name: гвардейская пикселька
+  description: Китель и штаны военнослужащего корпорации Voidkol.
+  components:
+  - type: Sprite
+    sprite: Voidkol/Clothing/Uniforms/Jumpsuit/pikselka_gvard.rsi
+  - type: Clothing
+    sprite: Voidkol/Clothing/Uniforms/Jumpsuit/pikselka_gvard.rsi

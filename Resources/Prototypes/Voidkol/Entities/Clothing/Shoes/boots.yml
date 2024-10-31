@@ -1,0 +1,15 @@
+- type: entity
+  parent: ClothingShoesMilitaryBase
+  id: ClothingShoesBerets
+  name: берцы
+  suffix: Voidkol
+  description: Блестят от бесконечного втирания гуталина.
+  components:
+  - type: Sprite
+    sprite: Voidkol/Clothing/Shoes/Boots/berets.rsi
+  - type: Clothing
+    sprite: Voidkol/Clothing/Shoes/Boots/berets.rsi
+  - type: ContainerFill
+    containers:
+      item:
+      - CombatKnife
