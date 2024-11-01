@@ -1,0 +1,16 @@
+- type: entity
+  parent: ClothingHandsGlovesColorBlack
+  id: ClothingHandsGlovesMilitaryCombat
+  suffix: Voidkol
+  name: военные перчатки
+  description: Военный перчатки предназначенный для ВКФ Voidkol.
+  components:
+  - type: Sprite
+    sprite: Voidkol/Clothing/Hands/Gloves/gloves_military_black.rsi
+  - type: Clothing
+    sprite: Voidkol/Clothing/Hands/Gloves/gloves_military_black.rsi
+  - type: GloveHeatResistance
+    heatResistance: 1800
+  - type: Insulated
+  - type: Fiber
+    fiberMaterial: fibers-insulative

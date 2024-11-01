@@ -1,0 +1,11 @@
+- type: entity
+  parent: ClothingMaskGasExplorer
+  id: ClothingGasmaskMilitary
+  suffix: Voidkol
+  name: военный противогаз
+  description: Противогаз предназначенный для ВКФ Voidkol.
+  components:
+  - type: Sprite
+    sprite: Voidkol/Clothing/Mask/gasmask_military.rsi
+  - type: Clothing
+    sprite: Voidkol/Clothing/Mask/gasmask_military.rsi

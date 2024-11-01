@@ -1,0 +1,39 @@
+- type: entity
+  parent: ClothingBackpack
+  id: ClothingBackpackMilitaryFlora
+  suffix: Voidkol
+  name: военный рюкзак
+  description: Военный рюкзак предназначенный для ВКФ Voidkol.
+  components:
+    - type: Sprite
+      sprite: Voidkol/Clothing/Back/Backpacks/backpacks_military_flora.rsi
+
+- type: entity
+  parent: ClothingBackpack
+  id: ClothingBackpackMilitaryGvard
+  suffix: Voidkol
+  name: военный рюкзак
+  description: Военный рюкзак предназначенный для ВКФ Voidkol.
+  components:
+    - type: Sprite
+      sprite: Voidkol/Clothing/Back/Backpacks/backpacks_military_gvard.rsi
+
+- type: entity
+  parent: ClothingBackpack
+  id: ClothingBackpackMilitaryHaki
+  suffix: Voidkol
+  name: военный рюкзак
+  description: Военный рюкзак предназначенный для ВКФ Voidkol.
+  components:
+    - type: Sprite
+      sprite: Voidkol/Clothing/Back/Backpacks/backpacks_military_haki.rsi
+
+- type: entity
+  parent: ClothingBackpack
+  id: ClothingBackpackMilitarySneg
+  suffix: Voidkol
+  name: военный рюкзак
+  description: Военный рюкзак предназначенный для ВКФ Voidkol.
+  components:
+    - type: Sprite
+      sprite: Voidkol/Clothing/Back/Backpacks/backpacks_military_sneg.rsi

@@ -1,0 +1,11 @@
+- type: entity
+  parent: ClothingHeadBase
+  id: ClothingHeadHatBeretKrapovy
+  suffix: Voidkol
+  name: Краповый берет
+  description: Для тех, кто доказал свою профессиональность.
+  components:
+  - type: Sprite
+    sprite: Voidkol/Clothing/Head/Hats/beret_krapovy.rsi
+  - type: Clothing
+    sprite: Voidkol/Clothing/Head/Hats/beret_krapovy.rsi

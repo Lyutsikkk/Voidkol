@@ -1,0 +1,47 @@
+- type: entity
+  parent: ClothingBeltStorageBase
+  id: ClothingBeltMercMilitaryFlora
+  suffix: Voidkol
+  name: военная разгрузка
+  description: Военная разгрузка предназначенный для ВКФ Voidkol.
+  components:
+  - type: Sprite
+    sprite: Voidkol/Clothing/Belt/unloading_military_flora.rsi
+  - type: Clothing
+    sprite: Voidkol/Clothing/Belt/unloading_military_flora.rsi
+
+- type: entity
+  parent: ClothingBeltStorageBase
+  id: ClothingBeltMercMilitaryGvard
+  suffix: Voidkol
+  name: военная разгрузка
+  description: Военная разгрузка предназначенный для ВКФ Voidkol.
+  components:
+  - type: Sprite
+    sprite: Voidkol/Clothing/Belt/unloading_military_gvard.rsi
+  - type: Clothing
+    sprite: Voidkol/Clothing/Belt/unloading_military_gvard.rsi
+
+- type: entity
+  parent: ClothingBeltStorageBase
+  id: ClothingBeltMercMilitaryHaki
+  suffix: Voidkol
+  name: военная разгрузка
+  description: Военная разгрузка предназначенный для ВКФ Voidkol.
+  components:
+  - type: Sprite
+    sprite: Voidkol/Clothing/Belt/unloading_military_haki.rsi
+  - type: Clothing
+    sprite: Voidkol/Clothing/Belt/unloading_military_haki.rsi
+
+- type: entity
+  parent: ClothingBeltStorageBase
+  id: ClothingBeltMercMilitarySneg
+  suffix: Voidkol
+  name: военная разгрузка
+  description: Военная разгрузка предназначенный для ВКФ Voidkol.
+  components:
+  - type: Sprite
+    sprite: Voidkol/Clothing/Belt/unloading_military_sneg.rsi
+  - type: Clothing
+    sprite: Voidkol/Clothing/Belt/unloading_military_sneg.rsi
