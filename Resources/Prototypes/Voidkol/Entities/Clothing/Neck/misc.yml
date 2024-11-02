@@ -1,0 +1,10 @@
+- type: entity
+  parent: ClothingNeckBase
+  id: ClothingNeckBattleToken
+  name: жетон ВКФ
+  description: Жетон для всех бойцов ВКФ.
+  components:
+  - type: Sprite
+    sprite: Voidkol/Clothing/Neck/Misc/bling.rsi
+  - type: Clothing
+    sprite: Voidkol/Clothing/Neck/Misc/bling.rsi

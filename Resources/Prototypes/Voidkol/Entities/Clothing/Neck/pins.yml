@@ -1,0 +1,31 @@
+- type: entity
+  parent: ClothingNeckPinBase
+  id: ClothingNeckA13Pin
+  name: Нагрудный значок
+  description: Ты так же прекрасна, как и в день когда исчезла..
+  components:
+  - type: Sprite
+    sprite: Voidkol/Clothing/Neck/Misc/pins.rsi
+    layers:
+    - state: andromeda
+  - type: Clothing
+    sprite: Voidkol/Clothing/Neck/Misc/pins.rsi
+    clothingVisuals:
+      neck:
+      - state: andromeda-equipped
+
+- type: entity
+  parent: ClothingNeckPinBase
+  id: ClothingNeckMSSAPin
+  name: Нагрудный значок
+  description: Даёшь мир всему космосу!
+  components:
+  - type: Sprite
+    sprite: Voidkol/Clothing/Neck/Misc/pins.rsi
+    layers:
+    - state: mssa
+  - type: Clothing
+    sprite: Voidkol/Clothing/Neck/Misc/pins.rsi
+    clothingVisuals:
+      neck:
+      - state: mssa-equipped

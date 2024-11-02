@@ -3,7 +3,7 @@
   id: ClothingShoesBerets
   name: берцы
   suffix: Voidkol
-  description: Блестят от бесконечного втирания гуталина.
+  description: Блестят от бесконечного втирания слёз срочников.
   components:
   - type: Sprite
     sprite: Voidkol/Clothing/Shoes/Boots/berets.rsi

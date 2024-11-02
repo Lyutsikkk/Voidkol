@@ -3,7 +3,7 @@
   id: ClothingBeltMercMilitaryFlora
   suffix: Voidkol
   name: военная разгрузка
-  description: Военная разгрузка предназначенный для ВКФ Voidkol.
+  description: Разгрузка предназначенная для ВКФ.
   components:
   - type: Sprite
     sprite: Voidkol/Clothing/Belt/unloading_military_flora.rsi
@@ -15,7 +15,7 @@
   id: ClothingBeltMercMilitaryGvard
   suffix: Voidkol
   name: военная разгрузка
-  description: Военная разгрузка предназначенный для ВКФ Voidkol.
+  description: Разгрузка предназначенная для ВКФ.
   components:
   - type: Sprite
     sprite: Voidkol/Clothing/Belt/unloading_military_gvard.rsi
@@ -27,7 +27,7 @@
   id: ClothingBeltMercMilitaryHaki
   suffix: Voidkol
   name: военная разгрузка
-  description: Военная разгрузка предназначенный для ВКФ Voidkol.
+  description: Разгрузка предназначенная для ВКФ.
   components:
   - type: Sprite
     sprite: Voidkol/Clothing/Belt/unloading_military_haki.rsi
@@ -39,7 +39,7 @@
   id: ClothingBeltMercMilitarySneg
   suffix: Voidkol
   name: военная разгрузка
-  description: Военная разгрузка предназначенный для ВКФ Voidkol.
+  description: Разгрузка предназначенная для ВКФ.
   components:
   - type: Sprite
     sprite: Voidkol/Clothing/Belt/unloading_military_sneg.rsi

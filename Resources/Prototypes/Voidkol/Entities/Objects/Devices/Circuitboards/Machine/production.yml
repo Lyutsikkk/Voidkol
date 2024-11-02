@@ -1,0 +1,20 @@
+- type: entity
+  id: MilitaryTechFabCircuitboard
+  suffix: Voidkol
+  parent: BaseMachineCircuitboard
+  name: плата военного техфаба
+  description: Плата для сборки военного техфаба.
+  components:
+    - type: Sprite
+      sprite: Voidkol/Objects/Misc/module.rsi
+      state: vkf
+    - type: MachineBoard
+      prototype: MilitaryTechFab
+      requirements:
+        MatterBin: 2
+        Manipulator: 2
+      tagRequirements:
+        GlassBeaker:
+          Amount: 2
+          DefaultPrototype: Beaker
+          ExamineName: Glass Beaker

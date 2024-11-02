@@ -1,0 +1,61 @@
+- type: entity
+  id: MilitaryTechFab
+  suffix: Voidkol
+  parent: BaseLatheLube
+  name: военный техфаб
+  description: Все разработки ВКФ в одной коробочке.
+  components:
+  - type: Sprite
+    sprite: Voidkol/Structures/Machines/techfab.rsi
+    layers:
+    - state: icon
+      map: ["enum.LatheVisualLayers.IsRunning"]
+    - state: vkf
+    - state: unlit
+      shader: unshaded
+      map: ["enum.PowerDeviceVisualLayers.Powered"]
+    - state: inserting
+      map: ["enum.MaterialStorageVisualLayers.Inserting"]
+    - state: panel
+      map: ["enum.WiresVisualLayers.MaintenancePanel"]
+  - type: Machine
+    board: MilitaryTechFabCircuitboard
+  - type: Lathe
+    idleState: icon
+    runningState: icon
+    staticRecipes:
+      - ClothingNeckBattleToken
+      - ClothingHeadHatBeretKrapovy
+      - ClothingHeadHelmetMilitaryFlora
+      - ClothingHeadHelmetMilitaryGvard
+      - ClothingHeadHelmetMilitaryHaki
+      - ClothingHeadHelmetMilitarySneg
+      - ClothingEyesGlassesTactical
+      - ClothingGasmaskMilitaryGP7
+      - ClothingGasmaskMilitaryPPM88
+      - ClothingBackpackMilitaryFlora
+      - ClothingBackpackMilitaryGvard
+      - ClothingBackpackMilitaryHaki
+      - ClothingBackpackMilitarySneg
+      - ClothingBeltMercMilitaryFlora
+      - ClothingBeltMercMilitaryGvard
+      - ClothingBeltMercMilitaryHaki
+      - ClothingBeltMercMilitarySneg
+      - ClothingOuterVestWebMilitaryFlora
+      - ClothingOuterVestWebMilitaryGvard
+      - ClothingOuterVestWebMilitaryHaki
+      - ClothingOuterVestWebMilitarySneg
+      - SingletMilitarypixelFlora
+      - SingletMilitarypixelGvard
+      - SingletMilitarypixelHaki
+      - SingletMilitarypixelSneg
+      - ClothingHandsGlovesMilitaryCombat
+      - ClothingShoesBerets
+      - SingletSkuf
+
+  - type: MaterialStorage
+    whitelist:
+      tags:
+        - Sheet
+        - RawMaterial
+        - Ingot

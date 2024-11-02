@@ -1,0 +1,12 @@
+- type: entity
+  parent: ClothingEyesBase
+  id: ClothingEyesGlassesTacticalBlack
+  suffix: Voidkol
+  name: тактические очки
+  description: Модернизированные тактические очки Ifrit-12, предназначенные для полной защиты глаз в боевых условиях, что имеют улучшенные линзы для защиты от сильных солнечных лучей или вспышек. Предназначенный для ВКФ.
+  components:
+  - type: Sprite
+    sprite: Voidkol/Clothing/Eyes/Glasses/tactical_glasses.rsi
+  - type: Clothing
+    sprite: Voidkol/Clothing/Eyes/Glasses/tactical_glasses.rsi
+  - type: ShowEthereal

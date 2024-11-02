@@ -3,7 +3,7 @@
   id: ClothingHandsGlovesMilitaryCombat
   suffix: Voidkol
   name: военные перчатки
-  description: Военный перчатки предназначенный для ВКФ Voidkol.
+  description: Военный перчатки предназначенный для ВКФ.
   components:
   - type: Sprite
     sprite: Voidkol/Clothing/Hands/Gloves/gloves_military_black.rsi

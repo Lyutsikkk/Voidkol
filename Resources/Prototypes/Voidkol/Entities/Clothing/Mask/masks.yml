@@ -1,11 +1,23 @@
 - type: entity
   parent: ClothingMaskGasExplorer
-  id: ClothingGasmaskMilitary
+  id: ClothingGasmaskMilitaryGP7
   suffix: Voidkol
-  name: военный противогаз
-  description: Противогаз предназначенный для ВКФ Voidkol.
+  name: гп-7
+  description: Противогаз предназначенный для ВКФ.
   components:
   - type: Sprite
-    sprite: Voidkol/Clothing/Mask/gasmask_military.rsi
+    sprite: Voidkol/Clothing/Mask/gasmask_military_gp7.rsi
   - type: Clothing
-    sprite: Voidkol/Clothing/Mask/gasmask_military.rsi
+    sprite: Voidkol/Clothing/Mask/gasmask_military_gp7.rsi
+
+- type: entity
+  parent: ClothingMaskGasExplorer
+  id: ClothingGasmaskMilitaryPPM88
+  suffix: Voidkol
+  name: ппм-88
+  description: Противогаз предназначенный для ВКФ.
+  components:
+  - type: Sprite
+    sprite: Voidkol/Clothing/Mask/gasmask_military_ppm.rsi
+  - type: Clothing
+    sprite: Voidkol/Clothing/Mask/gasmask_military_ppm.rsi
