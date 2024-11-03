@@ -1,0 +1,57 @@
+  #Патроны (База)
+- type: entity
+  id: BulletSniperRifle
+  name: патрон (9x39mm)
+  parent: BaseBullet
+  noSpawn: true
+  components:
+  - type: Projectile
+    damage:
+      types:
+        Piercing: 25
+
+- type: entity
+  id: BulletSniperRiflePractice
+  name: патрон (9x39mm учебный)
+  parent: BaseBulletPractice
+  noSpawn: true
+  components:
+  - type: Projectile
+    damage:
+      types:
+        Blunt: 2
+
+- type: entity
+  id: BulletSniperRifleRubber
+  name: патрон (9x39mm резиновый)
+  parent: BaseBulletRubber
+  noSpawn: true
+  components:
+  - type: Projectile
+    damage:
+      types:
+        Blunt: 3
+
+- type: entity
+  id: BulletSniperRifleIncendiary
+  parent: BaseBulletIncendiary
+  name: патрон (9x39mm зажигательный)
+  noSpawn: true
+  components:
+  - type: Projectile
+    damage:
+      types:
+        Blunt: 3
+        Heat: 16
+
+- type: entity
+  id: BulletSniperRifleUranium
+  parent: BaseBulletUranium
+  name: патрон (9x39mm урановый)
+  noSpawn: true
+  components:
+  - type: Projectile
+    damage:
+      types:
+        Radiation: 9
+        Piercing: 30

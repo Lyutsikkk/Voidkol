@@ -1,0 +1,189 @@
+  #Магазины
+- type: entity
+  id: BaseMagazineSniperRifle
+  name: Магазин (9x39mm)
+  parent: BaseItem
+  abstract: true
+  components:
+  - type: Tag
+    tags:
+      - MagazineSniperRifle
+  - type: BallisticAmmoProvider
+    mayTransfer: true
+    whitelist:
+      tags:
+        - CartridgeSniperRifle
+    proto: CartridgeSniperRifle
+    capacity: 10
+  - type: Item
+    size: Small
+  - type: ContainerContainer
+    containers:
+      ballistic-ammo: !type:Container
+  - type: Sprite
+    sprite: Voidkol/Objects/Weapons/Guns/Ammunition/Magazine/SniperRifle/sniper_rifle_mag.rsi
+    layers:
+    - state: base
+      map: ["enum.GunVisualLayers.Base"]
+    - state: mag-1
+      map: ["enum.GunVisualLayers.Mag"]
+  - type: MagazineVisuals
+    magState: mag
+    steps: 2
+    zeroVisible: false
+  - type: Appearance
+
+- type: entity
+  id: MagazineSniperRifle
+  suffix: Voidkol
+  name: Магазин (9x39mm)
+  parent: BaseMagazineSniperRifle
+  components:
+  - type: BallisticAmmoProvider
+    proto: CartridgeSniperRifle
+  - type: Sprite
+    layers:
+    - state: red
+      map: ["enum.GunVisualLayers.Base"]
+    - state: mag-1
+      map: ["enum.GunVisualLayers.Mag"]
+
+- type: entity
+  id: MagazineSniperRiflePractice
+  suffix: Voidkol
+  name: Магазин (9x39mm учебный)
+  parent: BaseMagazineSniperRifle
+  components:
+  - type: BallisticAmmoProvider
+    proto: CartridgeSniperRiflePractice
+  - type: Sprite
+    layers:
+    - state: practice
+      map: ["enum.GunVisualLayers.Base"]
+    - state: mag-1
+      map: ["enum.GunVisualLayers.Mag"]
+
+- type: entity
+  id: MagazineSniperRifleRubber
+  suffix: Voidkol
+  name: Магазин (9x39mm резиновый)
+  parent: BaseMagazineSniperRifle
+  components:
+  - type: BallisticAmmoProvider
+    proto: CartridgeSniperRifleRubber
+  - type: Sprite
+    layers:
+    - state: rubber
+      map: ["enum.GunVisualLayers.Base"]
+    - state: mag-1
+      map: ["enum.GunVisualLayers.Mag"]
+
+- type: entity
+  id: MagazineSniperRifleIncendiary
+  suffix: Voidkol
+  name: Магазин (9x39mm зажигательный)
+  parent: MagazineSniperRifle
+  components:
+  - type: BallisticAmmoProvider
+    proto: CartridgeSniperRifleIncendiary
+  - type: Sprite
+    layers:
+    - state: incendiary
+      map: ["enum.GunVisualLayers.Base"]
+    - state: mag-1
+      map: ["enum.GunVisualLayers.Mag"]
+
+- type: entity
+  id: MagazineSniperRifleUranium
+  suffix: Voidkol
+  name: Магазин (9x39mm урановый)
+  parent: BaseMagazineSniperRifle
+  components:
+  - type: BallisticAmmoProvider
+    proto: CartridgeSniperRifleUranium
+  - type: Sprite
+    layers:
+    - state: uranium
+      map: ["enum.GunVisualLayers.Base"]
+    - state: mag-1
+      map: ["enum.GunVisualLayers.Mag"]
+
+- type: entity
+  id: MagazineSniperRifleAdvanced
+  suffix: Voidkol
+  name: Магазин увеличеный(9x39mm)
+  parent: BaseMagazineSniperRifle
+  components:
+  - type: BallisticAmmoProvider
+    proto: CartridgeSniperRifle
+    capacity: 20
+  - type: Sprite
+    layers:
+    - state: red_advanced
+      map: ["enum.GunVisualLayers.Base"]
+    - state: mag-1
+      map: ["enum.GunVisualLayers.Mag"]
+
+- type: entity
+  id: MagazineSniperRiflePracticeAdvanced
+  suffix: Voidkol
+  name: Магазин увеличеный(9x39mm учебный)
+  parent: BaseMagazineSniperRifle
+  components:
+  - type: BallisticAmmoProvider
+    proto: CartridgeSniperRiflePractice
+    capacity: 20
+  - type: Sprite
+    layers:
+    - state: practice_advanced
+      map: ["enum.GunVisualLayers.Base"]
+    - state: mag-1
+      map: ["enum.GunVisualLayers.Mag"]
+
+- type: entity
+  id: MagazineSniperRifleRubberAdvanced
+  suffix: Voidkol
+  name: Магазин увеличеный(9x39mm резиновый)
+  parent: BaseMagazineSniperRifle
+  components:
+  - type: BallisticAmmoProvider
+    proto: CartridgeSniperRifleRubber
+    capacity: 20
+  - type: Sprite
+    layers:
+    - state: rubber_advanced
+      map: ["enum.GunVisualLayers.Base"]
+    - state: mag-1
+      map: ["enum.GunVisualLayers.Mag"]
+
+- type: entity
+  id: MagazineSniperRifleIncendiaryAdvanced
+  suffix: Voidkol
+  name: Магазин увеличеный(9x39mm зажигательный)
+  parent: MagazineSniperRifle
+  components:
+  - type: BallisticAmmoProvider
+    proto: CartridgeSniperRifleIncendiary
+    capacity: 20
+  - type: Sprite
+    layers:
+    - state: incendiary_advanced
+      map: ["enum.GunVisualLayers.Base"]
+    - state: mag-1
+      map: ["enum.GunVisualLayers.Mag"]
+
+- type: entity
+  id: MagazineSniperRifleUraniumAdvanced
+  suffix: Voidkol
+  name: Магазин увеличеный(9x39mm урановый)
+  parent: BaseMagazineSniperRifle
+  components:
+  - type: BallisticAmmoProvider
+    proto: CartridgeSniperRifleUranium
+    capacity: 20
+  - type: Sprite
+    layers:
+    - state: uranium_advanced
+      map: ["enum.GunVisualLayers.Base"]
+    - state: mag-1
+      map: ["enum.GunVisualLayers.Mag"]

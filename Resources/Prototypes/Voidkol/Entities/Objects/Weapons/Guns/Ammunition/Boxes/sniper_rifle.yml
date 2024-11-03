@@ -1,0 +1,127 @@
+  #Коробки
+- type: entity
+  abstract: true
+  parent: BaseMagazineBox
+  id: BaseMagazineBoxSniperRifle
+  suffix: Voidkol
+  name: коробка патрон (9x39mm)
+  components:
+  - type: BallisticAmmoProvider
+    mayTransfer: true
+    whitelist:
+      tags:
+        - CartridgeSniperRifle
+    proto: CartridgeSniperRifle
+    capacity: 60
+  - type: Item
+    size: Small
+  - type: ContainerContainer
+    containers:
+      ballistic-ammo: !type:Container
+  - type: Sprite
+    sprite: Objects/Weapons/Guns/Ammunition/Boxes/light_rifle.rsi
+  - type: MagazineVisuals
+    magState: mag
+    steps: 2
+    zeroVisible: false
+  - type: Appearance
+
+- type: entity
+  parent: BaseMagazineBoxSniperRifle
+  id: MagazineBoxSniperRifleBig
+  suffix: Voidkol
+  name: коробка патрон (9x39mm)
+  components:
+  - type: BallisticAmmoProvider
+    capacity: 200
+    proto: CartridgeSniperRifle
+  - type: Sprite
+    layers:
+    - state: base-b
+      map: ["enum.GunVisualLayers.Base"]
+    - state: magb-1
+      map: ["enum.GunVisualLayers.Mag"]
+  - type: MagazineVisuals
+    magState: magb
+    steps: 2
+    zeroVisible: false
+  - type: Appearance
+
+- type: entity
+  parent: BaseMagazineBoxSniperRifle
+  id: MagazineBoxSniperRifle
+  suffix: Voidkol
+  name: коробка патрон (9x39mm)
+  components:
+  - type: BallisticAmmoProvider
+    proto: CartridgeSniperRifle
+  - type: Sprite
+    layers:
+    - state: base
+      map: ["enum.GunVisualLayers.Base"]
+    - state: mag-1
+      map: ["enum.GunVisualLayers.Mag"]
+
+- type: entity
+  parent: BaseMagazineBoxSniperRifle
+  id: MagazineBoxSniperRiflePractice
+  suffix: Voidkol
+  name: коробка патрон (9x39mm учебные)
+  components:
+  - type: BallisticAmmoProvider
+    proto: CartridgeSniperRiflePractice
+  - type: Sprite
+    layers:
+    - state: base
+      map: ["enum.GunVisualLayers.Base"]
+    - state: mag-1
+      map: ["enum.GunVisualLayers.Mag"]
+    - state: practice
+
+- type: entity
+  parent: BaseMagazineBoxSniperRifle
+  id: MagazineBoxSniperRifleRubber
+  suffix: Voidkol
+  name: коробка патрон (9x39mm резиновые)
+  components:
+  - type: BallisticAmmoProvider
+    proto: CartridgeSniperRifleRubber
+  - type: Sprite
+    layers:
+    - state: base
+      map: ["enum.GunVisualLayers.Base"]
+    - state: mag-1
+      map: ["enum.GunVisualLayers.Mag"]
+    - state: rubber
+
+- type: entity
+  id: MagazineBoxSniperRifleIncendiary
+  suffix: Voidkol
+  parent: BaseMagazineBoxSniperRifle
+  name: коробка патрон (9x39mm зажигательные)
+  components:
+  - type: BallisticAmmoProvider
+    proto: CartridgeSniperRifleIncendiary
+  - type: Sprite
+    layers:
+    - state: base
+      map: ["enum.GunVisualLayers.Base"]
+    - state: mag-1
+      map: ["enum.GunVisualLayers.Mag"]
+    - state: incendiary
+
+- type: entity
+  parent: BaseMagazineBoxSniperRifle
+  id: MagazineBoxSniperRifleUranium
+  suffix: Voidkol
+  name: коробка патрон (9x39mm урановые)
+  components:
+  - type: BallisticAmmoProvider
+    proto: CartridgeSniperRifleUranium
+  - type: Sprite
+    layers:
+    - state: base
+      map: ["enum.GunVisualLayers.Base"]
+    - state: mag-1
+      map: ["enum.GunVisualLayers.Mag"]
+    - state: uranium

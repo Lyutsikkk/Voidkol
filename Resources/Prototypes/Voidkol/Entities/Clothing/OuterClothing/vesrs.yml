@@ -1,6 +1,7 @@
 - type: entity
   parent: ClothingOuterVestWeb
   id: ClothingOuterVestWebMilitaryFlora
+  suffix: Voidkol
   name: военная бронеразгрузка
   description: Бронеразгрузка предназначенная для ВКФ.
   components:
@@ -21,6 +22,7 @@
 - type: entity
   parent: ClothingOuterVestWeb
   id: ClothingOuterVestWebMilitaryGvard
+  suffix: Voidkol
   name: военная бронеразгрузка
   description: Бронеразгрузка предназначенная для ВКФ.
   components:
@@ -41,6 +43,7 @@
 - type: entity
   parent: ClothingOuterVestWeb
   id: ClothingOuterVestWebMilitaryHaki
+  suffix: Voidkol
   name: военная бронеразгрузка
   description: Бронеразгрузка предназначенная для ВКФ.
   components:
@@ -60,6 +63,7 @@
 - type: entity
   parent: ClothingOuterVestWeb
   id: ClothingOuterVestWebMilitarySneg
+  suffix: Voidkol
   name: военная бронеразгрузка
   description: Бронеразгрузка предназначенная для ВКФ.
   components:
