@@ -3,7 +3,7 @@
   parent: BaseWeaponRifle
   id: WeaponSniperVSS
   suffix: Voidkol
-  description: ВСС
+  description: ВСС или как в простонародье "Винторез". Бесшумная снайперская винтовка, калибр 9x39mm. Можно пойти не только на охоту.
   components:
   - type: Sprite
     sprite: Voidkol/Objects/Weapons/Guns/Snipers/heavy_sniper.rsi

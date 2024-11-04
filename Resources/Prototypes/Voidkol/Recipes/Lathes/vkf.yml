@@ -1,4 +1,5 @@
-- type: latheRecipe
+  #На шее
+- type: latheRecipe # Жетон
   id: ClothingNeckBattleToken
   result: ClothingNeckBattleToken
   completetime: 2
@@ -6,28 +7,28 @@
     Steel: 50
 
   #Рюкзаки
-- type: latheRecipe
+- type: latheRecipe #Зелёный
   id: ClothingBackpackMilitaryFlora
   result: ClothingBackpackMilitaryFlora
   completetime: 5
   materials:
     Cloth: 400
 
-- type: latheRecipe
+- type: latheRecipe #Синий
   id: ClothingBackpackMilitaryGvard
   result: ClothingBackpackMilitaryGvard
   completetime: 5
   materials:
     Cloth: 400
 
-- type: latheRecipe
+- type: latheRecipe #Пустынный
   id: ClothingBackpackMilitaryHaki
   result: ClothingBackpackMilitaryHaki
   completetime: 5
   materials:
     Cloth: 400
 
-- type: latheRecipe
+- type: latheRecipe #Зимняя
   id: ClothingBackpackMilitarySneg
   result: ClothingBackpackMilitarySneg
   completetime: 5
@@ -35,28 +36,28 @@
     Cloth: 400
 
   #Разгрузки
-- type: latheRecipe
+- type: latheRecipe #Зелёный
   id: ClothingBeltMercMilitaryFlora
   result: ClothingBeltMercMilitaryFlora
   completetime: 5
   materials:
     Cloth: 400
 
-- type: latheRecipe
+- type: latheRecipe #Синий
   id: ClothingBeltMercMilitaryGvard
   result: ClothingBeltMercMilitaryGvard
   completetime: 5
   materials:
     Cloth: 400
 
-- type: latheRecipe
+- type: latheRecipe #Пустынный
   id: ClothingBeltMercMilitaryHaki
   result: ClothingBeltMercMilitaryHaki
   completetime: 5
   materials:
     Cloth: 400
 
-- type: latheRecipe
+- type: latheRecipe #Зимняя
   id: ClothingBeltMercMilitarySneg
   result: ClothingBeltMercMilitarySneg
   completetime: 5
@@ -65,7 +66,7 @@
 
 
   #Перчатки
-- type: latheRecipe
+- type: latheRecipe # Чёрные боевые
   id: ClothingHandsGlovesMilitaryCombat
   result: ClothingHandsGlovesMilitaryCombat
   completetime: 5
@@ -73,7 +74,7 @@
     Cloth: 200
 
   #Береты
-- type: latheRecipe
+- type: latheRecipe # Краповый
   id: ClothingHeadHatBeretKrapovy
   result: ClothingHeadHatBeretKrapovy
   completetime: 5
@@ -81,7 +82,7 @@
     Cloth: 400
 
   #Шлема
-- type: latheRecipe
+- type: latheRecipe #Зелёный
   id: ClothingHeadHelmetMilitaryFlora
   result: ClothingHeadHelmetMilitaryFlora
   completetime: 5
@@ -89,7 +90,7 @@
     Cloth: 200
     Steel: 300
 
-- type: latheRecipe
+- type: latheRecipe #Синий
   id: ClothingHeadHelmetMilitaryGvard
   result: ClothingHeadHelmetMilitaryGvard
   completetime: 5
@@ -97,7 +98,7 @@
     Cloth: 200
     Steel: 300
 
-- type: latheRecipe
+- type: latheRecipe #Пустынный
   id: ClothingHeadHelmetMilitaryHaki
   result: ClothingHeadHelmetMilitaryHaki
   completetime: 5
@@ -105,7 +106,7 @@
     Cloth: 200
     Steel: 300
 
-- type: latheRecipe
+- type: latheRecipe #Зимний
   id: ClothingHeadHelmetMilitarySneg
   result: ClothingHeadHelmetMilitarySneg
   completetime: 5
@@ -114,15 +115,15 @@
     Steel: 300
 
   #Очки
-- type: latheRecipe
-  id: ClothingEyesGlassesTactical
-  result: ClothingEyesGlassesTactical
+- type: latheRecipe #Тактические чёрные
+  id: ClothingEyesGlassesTacticalBlack
+  result: ClothingEyesGlassesTacticalBlack
   completetime: 5
   materials:
     Glass: 200
 
   #Противогазы
-- type: latheRecipe
+- type: latheRecipe #ГП-7
   id: ClothingGasmaskMilitaryGP7
   result: ClothingGasmaskMilitaryGP7
   completetime: 5
@@ -131,7 +132,7 @@
     Plastic: 200
     Glass: 100
 
-- type: latheRecipe
+- type: latheRecipe #ППМ-88
   id: ClothingGasmaskMilitaryPPM88
   result: ClothingGasmaskMilitaryPPM88
   completetime: 5
@@ -141,7 +142,7 @@
     Glass: 100
 
   #Бронеразгрузки
-- type: latheRecipe
+- type: latheRecipe #Зелёная
   id: ClothingOuterVestWebMilitaryFlora
   result: ClothingOuterVestWebMilitaryFlora
   completetime: 5
@@ -149,7 +150,7 @@
     Cloth: 300
     Steel: 400
 
-- type: latheRecipe
+- type: latheRecipe #Синяя
   id: ClothingOuterVestWebMilitaryGvard
   result: ClothingOuterVestWebMilitaryGvard
   completetime: 5
@@ -157,7 +158,7 @@
     Cloth: 300
     Steel: 400
 
-- type: latheRecipe
+- type: latheRecipe #Пустынная
   id: ClothingOuterVestWebMilitaryHaki
   result: ClothingOuterVestWebMilitaryHaki
   completetime: 5
@@ -165,7 +166,7 @@
     Cloth: 300
     Steel: 400
 
-- type: latheRecipe
+- type: latheRecipe #Зимняя
   id: ClothingOuterVestWebMilitarySneg
   result: ClothingOuterVestWebMilitarySneg
   completetime: 5
@@ -174,7 +175,7 @@
     Steel: 400
 
   #Обувь
-- type: latheRecipe
+- type: latheRecipe # Берцы
   id: ClothingShoesBerets
   result: ClothingShoesBerets
   completetime: 5
@@ -183,37 +184,124 @@
     Durathread: 100
 
   #Форма
-- type: latheRecipe
+- type: latheRecipe #Пикселька зелёная
   id: SingletMilitarypixelFlora
   result: SingletMilitarypixelFlora
   completetime: 5
   materials:
     Cloth: 500
 
-- type: latheRecipe
+- type: latheRecipe #Пикселька синяя
   id: SingletMilitarypixelGvard
   result: SingletMilitarypixelGvard
   completetime: 5
   materials:
     Cloth: 500
 
-- type: latheRecipe
+- type: latheRecipe #Пикселька пустынная
   id: SingletMilitarypixelHaki
   result: SingletMilitarypixelHaki
   completetime: 5
   materials:
     Cloth: 500
 
-- type: latheRecipe
+- type: latheRecipe #Пикселька зимняя
   id: SingletMilitarypixelSneg
   result: SingletMilitarypixelSneg
   completetime: 5
   materials:
     Cloth: 500
 
-- type: latheRecipe
+- type: latheRecipe #Тельняшка
   id: SingletSkuf
   result: SingletSkuf
   completetime: 5
   materials:
     Cloth: 500
+
+  #Оружие
+- type: latheRecipe #ВСС #9x39mm
+  id: WeaponSniperVSS
+  result: WeaponSniperVSS
+  completetime: 5
+  materials:
+    Plasteel: 500
+    Steel: 1500
+    Glass: 300
+    Wood: 500
+
+  #Коробки с патронами
+- type: latheRecipe #9x39mm (200)
+  id: MagazineBoxSniperRifleBig
+  result: MagazineBoxSniperRifleBig
+  completetime: 5
+  materials:
+    Steel: 1000
+    Plastic: 100
+
+- type: latheRecipe #9x39mm (60)
+  id: MagazineBoxSniperRifle
+  result: MagazineBoxSniperRifle
+  completetime: 5
+  materials:
+    Steel: 1000
+    Plastic: 100
+
+- type: latheRecipe #9x39mm (60)
+  id: MagazineBoxSniperRiflePractice
+  result: MagazineBoxSniperRiflePractice
+  completetime: 5
+  materials:
+    Steel: 1000
+    Plastic: 100
+
+- type: latheRecipe #9x39mm (60)
+  id: MagazineBoxSniperRifleRubber
+  result: MagazineBoxSniperRifleRubber
+  completetime: 5
+  materials:
+    Steel: 1000
+    Plastic: 100
+
+  #Магазины
+- type: latheRecipe #9x39mm (10)
+  id: MagazineSniperRifle
+  result: MagazineSniperRifle
+  completetime: 5
+  materials:
+    Steel: 200
+
+- type: latheRecipe #9x39mm (10)
+  id: MagazineSniperRiflePractice
+  result: MagazineSniperRiflePractice
+  completetime: 5
+  materials:
+    Steel: 200
+
+- type: latheRecipe #9x39mm (10)
+  id: MagazineSniperRifleRubber
+  result: MagazineSniperRifleRubber
+  completetime: 5
+  materials:
+    Steel: 200
+
+- type: latheRecipe #9x39mm (20)
+  id: MagazineSniperRifleAdvanced
+  result: MagazineSniperRifleAdvanced
+  completetime: 5
+  materials:
+    Steel: 300
+
+- type: latheRecipe #9x39mm (20)
+  id: MagazineSniperRiflePracticeAdvanced
+  result: MagazineSniperRiflePracticeAdvanced
+  completetime: 5
+  materials:
+    Steel: 300
+
+- type: latheRecipe #9x39mm (20)
+  id: MagazineSniperRifleRubberAdvanced
+  result: MagazineSniperRifleRubberAdvanced
+  completetime: 5
+  materials:
+    Steel: 300

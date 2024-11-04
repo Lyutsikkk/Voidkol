@@ -30,7 +30,7 @@
       - ClothingHeadHelmetMilitaryGvard
       - ClothingHeadHelmetMilitaryHaki
       - ClothingHeadHelmetMilitarySneg
-      - ClothingEyesGlassesTactical
+      - ClothingEyesGlassesTacticalBlack
       - ClothingGasmaskMilitaryGP7
       - ClothingGasmaskMilitaryPPM88
       - ClothingBackpackMilitaryFlora
@@ -52,7 +52,17 @@
       - ClothingHandsGlovesMilitaryCombat
       - ClothingShoesBerets
       - SingletSkuf
-
+      - WeaponSniperVSS
+      - MagazineBoxSniperRifleBig
+      - MagazineBoxSniperRifle
+      - MagazineBoxSniperRiflePractice
+      - MagazineBoxSniperRifleRubber
+      - MagazineSniperRifle
+      - MagazineSniperRiflePractice
+      - MagazineSniperRifleRubber
+      - MagazineSniperRifleAdvanced
+      - MagazineSniperRiflePracticeAdvanced
+      - MagazineSniperRifleRubberAdvanced
   - type: MaterialStorage
     whitelist:
       tags:
