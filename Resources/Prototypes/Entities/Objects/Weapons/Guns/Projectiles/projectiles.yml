@@ -9,7 +9,7 @@
     layers:
     - shader: unshaded
       map: ["enum.EffectLayers.Unshaded"]
-      sprite: Objects/Weapons/Guns/Projectiles/projectiles.rsi
+      sprite: Voidkol/Objects/Weapons/Guns/Projectiles/projectiles.rsi
       state: muzzle_bullet
   - type: EffectVisuals
   - type: Tag
@@ -64,7 +64,7 @@
     soundHit:
       path: /Audio/Weapons/Guns/Hits/bullet_hit.ogg
   - type: TimedDespawn
-    lifetime: 20
+    lifetime: 10
   - type: EmitSoundOnSpawn
     sound:
       path: /Audio/Voidkol/Weapons/Guns/Ammunition/svist.ogg

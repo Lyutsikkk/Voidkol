@@ -15,8 +15,8 @@
   - type: Clothing
     sprite: Voidkol/Objects/Weapons/Guns/Snipers/heavy_sniper.rsi
   - type: Gun
-    projectileSpeed: 100
-    fireRate: 1
+    fireRate: 3
+    projectileSpeed: 50
     soundGunshot:
       path: /Audio/Voidkol/Weapons/Guns/Gunshots/vss.ogg
   - type: ChamberMagazineAmmoProvider

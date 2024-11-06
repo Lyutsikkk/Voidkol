@@ -1,57 +1,103 @@
-  #Патроны (База)
+  #Патроны (база урона)
 - type: entity
-  id: BulletSniperRifle
-  name: патрон (9x39mm)
-  parent: BaseBullet
+  id: BulletSniperRifle #ПС
+  name: патрон (ПС 9x39mm)
+  parent: BaseVoidkolBullet
   noSpawn: true
   components:
   - type: Projectile
     damage:
       types:
-        Piercing: 25
+        Piercing: 25 #Проникающий
+        Heat: 4 #Ожог
+        Slash: 4 #Шоковый
 
 - type: entity
-  id: BulletSniperRiflePractice
-  name: патрон (9x39mm учебный)
-  parent: BaseBulletPractice
+  id: BulletSniperRiflePP #ПП
+  name: патрон (ПП 9x39mm)
+  parent: BaseVoidkolBulletBS
+  noSpawn: true
+  components:
+  - type: Projectile
+    damage:
+      types:
+        Piercing: 15
+        Heat: 4
+        Slash: 4
+
+- type: entity
+  id: BulletSniperRifleBS #БС
+  name: патрон (БС 9x39mm)
+  parent: BaseVoidkolBulletBS
+  noSpawn: true
+  components:
+  - type: Projectile
+    damage:
+      types:
+        Piercing: 20
+        Heat: 4
+        Slash: 4
+
+- type: entity
+  id: BulletSniperRifleTM #ТМ
+  name: патрон (ТМ 9x39mm)
+  parent: BaseVoidkolBulletTracer
+  noSpawn: true
+  components:
+  - type: Projectile
+    damage:
+      types:
+        Piercing: 20
+        Heat: 4
+        Slash: 4
+
+- type: entity
+  id: BulletSniperRiflePractice #Учебная
+  name: патрон (Учебный 9x39mm)
+  parent: BaseVoidkolBulletPractice
+  noSpawn: true
+  components:
+  - type: Projectile
+    damage:
+      types:
+        Heat: 1
+        Slash: 4
+
+- type: entity
+  id: BulletSniperRifleRubber #Резиновая
+  name: патрон (Резиновый 9x39mm)
+  parent: BaseVoidkolBulletRubber
   noSpawn: true
   components:
   - type: Projectile
     damage:
       types:
         Blunt: 2
+        Heat: 4
 
 - type: entity
-  id: BulletSniperRifleRubber
-  name: патрон (9x39mm резиновый)
-  parent: BaseBulletRubber
+  id: BulletSniperRifleIncendiary #Зажигательная
+  name: патрон (Зажигательный 9x39mm)
+  parent: BaseVoidkolBulletIncendiary
   noSpawn: true
   components:
   - type: Projectile
     damage:
       types:
-        Blunt: 3
+        Piercing: 15
+        Heat: 25
+        Slash: 4
 
 - type: entity
-  id: BulletSniperRifleIncendiary
-  parent: BaseBulletIncendiary
-  name: патрон (9x39mm зажигательный)
+  id: BulletSniperRifleUranium #Урановая
+  name: патрон (Урановый 9x39mm)
+  parent: BaseVoidkolBulletUranium
   noSpawn: true
   components:
   - type: Projectile
     damage:
       types:
-        Blunt: 3
-        Heat: 16
-
-- type: entity
-  id: BulletSniperRifleUranium
-  parent: BaseBulletUranium
-  name: патрон (9x39mm урановый)
-  noSpawn: true
-  components:
-  - type: Projectile
-    damage:
-      types:
-        Radiation: 9
-        Piercing: 30
+        Piercing: 15
+        Radiation: 10
+        Heat: 4
+        Slash: 4

@@ -1,7 +1,7 @@
   #Патроны
 - type: entity
   id: BaseCartridgeSniperRifle
-  name: патрон (9x39mm)
+  name: патрон (ПС 9x39mm)
   parent: BaseCartridge
   abstract: true
   components:
@@ -12,7 +12,7 @@
   - type: CartridgeAmmo
     proto: BulletSniperRifle
   - type: Sprite
-    sprite: Voidkol/Objects/Weapons/Guns/Ammunition/Casings/sniper_rifle_ammo.rsi
+    sprite: Voidkol/Objects/Weapons/Guns/Ammunition/Casings/rifle_ammo.rsi
     layers:
     - state: base
       map: ["enum.AmmoVisualLayers.Base"]
@@ -20,78 +20,113 @@
   - type: SpentAmmoVisuals
 
 - type: entity
-  id: CartridgeSniperRifle
-  suffix: Voidkol
-  name: патрон (9x39mm)
+  id: CartridgeSniperRifle #ПС
+  name: патрон (ПС 9x39mm)
   parent: BaseCartridgeSniperRifle
   components:
   - type: CartridgeAmmo
     proto: BulletSniperRifle
 
 - type: entity
-  id: CartridgeSniperRiflePractice
-  suffix: Voidkol
-  name: патрон (9x39mm учебный)
-  parent: BulletSniperRiflePractice
+  id: CartridgeSniperRiflePP #ПП
+  name: патрон (ПП 9x39mm)
+  parent: BaseCartridgeSniperRifle
+  components:
+  - type: CartridgeAmmo
+    proto: BulletSniperRiflePP
+
+- type: entity
+  id: CartridgeSniperRifleBS #БС
+  name: патрон (БС 9x39mm)
+  parent: BaseCartridgeSniperRifle
+  components:
+  - type: CartridgeAmmo
+    proto: BulletSniperRifleBS
+  - type: Sprite
+    sprite: Voidkol/Objects/Weapons/Guns/Ammunition/Casings/rifle_ammo.rsi
+    layers:
+      - state: base
+        map: [ "enum.AmmoVisualLayers.Base" ]
+      - state: tip
+        map: [ "enum.AmmoVisualLayers.Tip" ]
+        color: "#000000" #Чёрный
+
+- type: entity
+  id: CartridgeSniperRifleTM #ТМ
+  name: патрон (ТМ 9x39mm)
+  parent: BaseCartridgeSniperRifle
+  components:
+  - type: CartridgeAmmo
+    proto: BulletSniperRifleTM
+  - type: Sprite
+    sprite: Voidkol/Objects/Weapons/Guns/Ammunition/Casings/rifle_ammo.rsi
+    layers:
+      - state: base
+        map: [ "enum.AmmoVisualLayers.Base" ]
+      - state: tip
+        map: [ "enum.AmmoVisualLayers.Tip" ]
+        color: "#30d5c8" #Бирюзовый (Голубой)
+
+- type: entity
+  id: CartridgeSniperRiflePractice #Учебный
+  name: патрон (Учебный 9x39mm)
+  parent: BaseCartridgeSniperRifle
   components:
   - type: CartridgeAmmo
     proto: BulletSniperRiflePractice
   - type: Sprite
-    sprite: Voidkol/Objects/Weapons/Guns/Ammunition/Casings/sniper_rifle_ammo.rsi
+    sprite: Voidkol/Objects/Weapons/Guns/Ammunition/Casings/rifle_ammo.rsi
     layers:
       - state: base
         map: [ "enum.AmmoVisualLayers.Base" ]
       - state: tip
         map: [ "enum.AmmoVisualLayers.Tip" ]
-        color: "#dbdbdb"
+        color: "#ffffff" #Белый
 
 - type: entity
-  id: CartridgeSniperRifleRubber
-  suffix: Voidkol
-  name: патрон (9x39mm резиновый)
-  parent: BulletSniperRifleRubber
+  id: CartridgeSniperRifleRubber #Резиновая
+  name: патрон (Резиновый 9x39mm)
+  parent: BaseCartridgeSniperRifle
   components:
   - type: CartridgeAmmo
     proto: BulletSniperRifleRubber
   - type: Sprite
-    sprite: Voidkol/Objects/Weapons/Guns/Ammunition/Casings/sniper_rifle_ammo.rsi
+    sprite: Voidkol/Objects/Weapons/Guns/Ammunition/Casings/rifle_ammo.rsi
     layers:
       - state: base
         map: [ "enum.AmmoVisualLayers.Base" ]
       - state: tip
         map: [ "enum.AmmoVisualLayers.Tip" ]
-        color: "#43c4f7"
+        color: "#1100ff" #Синий
 
 - type: entity
-  id: CartridgeSniperRifleIncendiary
-  suffix: Voidkol
-  name: патрон (9x39mm зажигательный)
-  parent: BulletSniperRifleIncendiary
+  id: CartridgeSniperRifleIncendiary #Зажигательная
+  name: патрон (Зажигательный 9x39mm)
+  parent: BaseCartridgeSniperRifle
   components:
   - type: CartridgeAmmo
     proto: BulletSniperRifleIncendiary
   - type: Sprite
-    sprite: Voidkol/Objects/Weapons/Guns/Ammunition/Casings/sniper_rifle_ammo.rsi
+    sprite: Voidkol/Objects/Weapons/Guns/Ammunition/Casings/rifle_ammo.rsi
     layers:
       - state: base
         map: [ "enum.AmmoVisualLayers.Base" ]
       - state: tip
         map: [ "enum.AmmoVisualLayers.Tip" ]
-        color: "#d67d00"
+        color: "#ffa500" #Оранжевый
 
 - type: entity
-  id: CartridgeSniperRifleUranium
-  suffix: Voidkol
-  name: патрон (9x39mm урановый)
-  parent: BulletSniperRifleUranium
+  id: CartridgeSniperRifleUranium #Урановая
+  name: патрон (Урановый 9x39mm)
+  parent: BaseCartridgeSniperRifle
   components:
   - type: CartridgeAmmo
     proto: BulletSniperRifleUranium
   - type: Sprite
-    sprite: Voidkol/Objects/Weapons/Guns/Ammunition/Casings/sniper_rifle_ammo.rsi
+    sprite: Voidkol/Objects/Weapons/Guns/Ammunition/Casings/rifle_ammo.rsi
     layers:
       - state: base
         map: [ "enum.AmmoVisualLayers.Base" ]
       - state: tip
         map: [ "enum.AmmoVisualLayers.Tip" ]
-        color: "#11ff00"
+        color: "#008000" #Зелёный

@@ -1,0 +1,15 @@
+- type: latheCategory
+  id: ammomagazine
+  name: Магазины
+
+- type: latheCategory
+  id: ammobox
+  name: Ящики припасов
+
+- type: latheCategory
+  id: clothes
+  name: Одежда
+
+- type: latheCategory
+  id: gun
+  name: Оружие

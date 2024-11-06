@@ -1,10 +1,9 @@
-  #Коробки
+  #Коробки с патронами
 - type: entity
   abstract: true
   parent: BaseMagazineBox
   id: BaseMagazineBoxSniperRifle
-  suffix: Voidkol
-  name: коробка патрон (9x39mm)
+  name: коробка патрон (ПС 9x39mm)
   components:
   - type: BallisticAmmoProvider
     mayTransfer: true
@@ -19,7 +18,7 @@
     containers:
       ballistic-ammo: !type:Container
   - type: Sprite
-    sprite: Objects/Weapons/Guns/Ammunition/Boxes/light_rifle.rsi
+    sprite: Voidkol/Objects/Weapons/Guns/Ammunition/Boxes/9x39mm_box.rsi
   - type: MagazineVisuals
     magState: mag
     steps: 2
@@ -28,9 +27,8 @@
 
 - type: entity
   parent: BaseMagazineBoxSniperRifle
-  id: MagazineBoxSniperRifleBig
-  suffix: Voidkol
-  name: коробка патрон (9x39mm)
+  id: MagazineBoxSniperRifleBig #ПС
+  name: коробка патрон (ПС 9x39mm)
   components:
   - type: BallisticAmmoProvider
     capacity: 200
@@ -49,9 +47,8 @@
 
 - type: entity
   parent: BaseMagazineBoxSniperRifle
-  id: MagazineBoxSniperRifle
-  suffix: Voidkol
-  name: коробка патрон (9x39mm)
+  id: MagazineBoxSniperRifle #ПС
+  name: коробка патрон (ПС 9x39mm)
   components:
   - type: BallisticAmmoProvider
     proto: CartridgeSniperRifle
@@ -64,12 +61,54 @@
 
 - type: entity
   parent: BaseMagazineBoxSniperRifle
-  id: MagazineBoxSniperRiflePractice
-  suffix: Voidkol
-  name: коробка патрон (9x39mm учебные)
+  id: MagazineBoxSniperRiflePP #ПП
+  name: коробка патрон (ПП 9x39mm)
   components:
   - type: BallisticAmmoProvider
-    proto: CartridgeSniperRiflePractice
+    proto: CartridgeSniperRifle
+  - type: Sprite
+    layers:
+    - state: base
+      map: ["enum.GunVisualLayers.Base"]
+    - state: mag-1
+      map: ["enum.GunVisualLayers.Mag"]
+
+- type: entity
+  parent: BaseMagazineBoxSniperRifle
+  id: MagazineBoxSniperRifleBS #БС
+  name: коробка патрон (БС 9x39mm)
+  components:
+  - type: BallisticAmmoProvider
+    proto: CartridgeSniperRifle
+  - type: Sprite
+    layers:
+    - state: base
+      map: ["enum.GunVisualLayers.Base"]
+    - state: mag-1
+      map: ["enum.GunVisualLayers.Mag"]
+
+- type: entity
+  parent: BaseMagazineBoxSniperRifle
+  id: MagazineBoxSniperRifleTM #ТМ
+  name: коробка патрон (ТМ 9x39mm)
+  components:
+  - type: BallisticAmmoProvider
+    proto: CartridgeSniperRifle
+  - type: Sprite
+    layers:
+    - state: base
+      map: ["enum.GunVisualLayers.Base"]
+    - state: mag-1
+      map: ["enum.GunVisualLayers.Mag"]
+    - state: tm
+
+- type: entity
+  parent: BaseMagazineBoxSniperRifle
+  id: MagazineBoxSniperRiflePractice #Учебные
+  name: коробка патрон (Учебные 9x39mm)
+  components:
+  - type: BallisticAmmoProvider
+    proto: CartridgeSniperRifle
   - type: Sprite
     layers:
     - state: base
@@ -80,12 +119,11 @@
 
 - type: entity
   parent: BaseMagazineBoxSniperRifle
-  id: MagazineBoxSniperRifleRubber
-  suffix: Voidkol
-  name: коробка патрон (9x39mm резиновые)
+  id: MagazineBoxSniperRifleRubber #Резиновые
+  name: коробка патрон (Резиновые 9x39mm)
   components:
   - type: BallisticAmmoProvider
-    proto: CartridgeSniperRifleRubber
+    proto: CartridgeSniperRifle
   - type: Sprite
     layers:
     - state: base
@@ -95,13 +133,12 @@
     - state: rubber
 
 - type: entity
-  id: MagazineBoxSniperRifleIncendiary
-  suffix: Voidkol
   parent: BaseMagazineBoxSniperRifle
-  name: коробка патрон (9x39mm зажигательные)
+  id: MagazineBoxSniperRifleIncendiary #Зажигательные
+  name: коробка патрон (Зажигательные 9x39mm)
   components:
   - type: BallisticAmmoProvider
-    proto: CartridgeSniperRifleIncendiary
+    proto: CartridgeSniperRifle
   - type: Sprite
     layers:
     - state: base
@@ -112,12 +149,11 @@
 
 - type: entity
   parent: BaseMagazineBoxSniperRifle
-  id: MagazineBoxSniperRifleUranium
-  suffix: Voidkol
-  name: коробка патрон (9x39mm урановые)
+  id: MagazineBoxSniperRifleUranium #Урановые
+  name: коробка патрон (Урановые 9x39mm)
   components:
   - type: BallisticAmmoProvider
-    proto: CartridgeSniperRifleUranium
+    proto: CartridgeSniperRifle
   - type: Sprite
     layers:
     - state: base

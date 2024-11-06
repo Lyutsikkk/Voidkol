@@ -55,14 +55,29 @@
       - WeaponSniperVSS
       - MagazineBoxSniperRifleBig
       - MagazineBoxSniperRifle
+      - MagazineBoxSniperRiflePP
+      - MagazineBoxSniperRifleBS
+      - MagazineBoxSniperRifleTM
       - MagazineBoxSniperRiflePractice
       - MagazineBoxSniperRifleRubber
+      - MagazineBoxSniperRifleIncendiary
+      - MagazineBoxSniperRifleUranium
       - MagazineSniperRifle
-      - MagazineSniperRiflePractice
-      - MagazineSniperRifleRubber
       - MagazineSniperRifleAdvanced
+      - MagazineSniperRiflePP
+      - MagazineSniperRiflePPAdvanced
+      - MagazineSniperRifleBS
+      - MagazineSniperRifleBSAdvanced
+      - MagazineSniperRifleTM
+      - MagazineSniperRifleTMAdvanced
+      - MagazineSniperRiflePractice
       - MagazineSniperRiflePracticeAdvanced
+      - MagazineSniperRifleRubber
       - MagazineSniperRifleRubberAdvanced
+      - MagazineSniperRifleIncendiary
+      - MagazineSniperRifleIncendiaryAdvanced
+      - MagazineSniperRifleUranium
+      - MagazineSniperRifleUraniumAdvanced
   - type: MaterialStorage
     whitelist:
       tags:

@@ -1,0 +1,217 @@
+#Малый и средний
+- type: entity
+  parent: [ClothingOuterBaseMedium, AllowSuitStorageClothing] #[Базовая среда для одежды, Разрешить хранение одежды в костюме]
+  id: ClothingOuterArmorMilitary1
+  name: лёгкий бронежилет
+  description: Бронежилет 1 класса защищающий только торс.
+  components:
+  - type: Sprite
+    sprite: Clothing/OuterClothing/Armor/security.rsi
+  - type: Clothing
+    sprite: Clothing/OuterClothing/Armor/security.rsi
+  - type: Armor
+    modifiers:
+      coefficients:
+        Piercing: 0.8 #Пулевой          #20% 20 (25)
+        Heat: 0.8 #Ожог
+        Blunt: 0.7 #Тупой
+        Slash: 0.8
+
+- type: entity
+  parent: ClothingOuterArmorMilitary1
+  id: ClothingOuterArmorMilitary2
+  name: лёгкий бронежилет
+  description: Бронежилет 2 класса защищающий только торс.
+  components:
+  - type: Sprite
+    sprite: Clothing/OuterClothing/Armor/security.rsi
+  - type: Clothing
+    sprite: Clothing/OuterClothing/Armor/security.rsi
+  - type: Armor
+    modifiers:
+      coefficients:
+        Piercing: 0.7 #30% 17,5 (25)
+        Heat: 0.8
+        Blunt: 0.7
+        Slash: 0.8
+
+- type: entity
+  parent: ClothingOuterArmorMilitary1
+  id: ClothingOuterArmorMilitary3
+  name: лёгкий бронежилет
+  description: Бронежилет 3 класса защищающий только торс.
+  components:
+  - type: Sprite
+    sprite: Clothing/OuterClothing/Armor/security.rsi
+  - type: Clothing
+    sprite: Clothing/OuterClothing/Armor/security.rsi
+  - type: Armor
+    modifiers:
+      coefficients:
+        Piercing: 0.6 #40% 15 (25)
+        Heat: 0.7
+        Blunt: 0.7
+        Slash: 0.7
+
+- type: entity
+  parent: ClothingOuterArmorMilitary1
+  id: ClothingOuterArmorMilitary4
+  name: Бронежилет
+  description: Бронежилет 4 класса защищающий только торс.
+  components:
+  - type: Sprite
+    sprite: Clothing/OuterClothing/Armor/security.rsi
+  - type: Clothing
+    sprite: Clothing/OuterClothing/Armor/security.rsi
+  - type: Armor
+    modifiers:
+      coefficients:
+        Piercing: 0.5 #50% 12,5 (25)
+        Heat: 0.7
+        Blunt: 0.7
+        Slash: 0.7
+
+- type: entity
+  parent: ClothingOuterArmorMilitary1
+  id: ClothingOuterArmorMilitary5
+  name: Бронежилет
+  description: Бронежилет 5 класса защищающий только торс.
+  components:
+  - type: Sprite
+    sprite: Clothing/OuterClothing/Armor/security.rsi
+  - type: Clothing
+    sprite: Clothing/OuterClothing/Armor/security.rsi
+  - type: Armor
+    modifiers:
+      coefficients:
+        Piercing: 0.4 #60% 10 (25)
+        Heat: 0.7
+        Blunt: 0.7
+        Slash: 0.6
+
+- type: entity
+  parent: ClothingOuterArmorMilitary1
+  id: ClothingOuterArmorMilitary6
+  name: тяжёлый бронежилет
+  description: Бронежилет 6 класса защищающий только торс.
+  components:
+  - type: Sprite
+    sprite: Clothing/OuterClothing/Armor/security.rsi
+  - type: Clothing
+    sprite: Clothing/OuterClothing/Armor/security.rsi
+  - type: Armor
+    modifiers:
+      coefficients:
+        Piercing: 0.3 #70% 7,5 (25)
+        Heat: 0.6
+        Blunt: 0.6
+        Slash: 0.6
+
+#Полноразмерный
+- type: entity
+  parent: [ClothingOuterBaseLarge, AllowSuitStorageClothing] #[Верхняя одежда большого размера, разрешить хранение одежды в костюме]
+  id: ClothingOuterArmorMilitaryFullSize1
+  name: лёгкий полноразмерный бронежилет
+  description: Бронежилет 1 класса защищающий торс и плечи.
+  components:
+  - type: Sprite
+    sprite: Clothing/OuterClothing/Armor/riot.rsi
+  - type: Clothing
+    sprite: Clothing/OuterClothing/Armor/riot.rsi
+  - type: Armor
+    modifiers:
+      coefficients:
+        Piercing: 0.6
+        Heat: 0.2
+        Blunt: 0.4
+        Slash: 0.5
+
+- type: entity
+  parent: ClothingOuterArmorMilitaryFullSize1
+  id: ClothingOuterArmorMilitaryFullSize2
+  name: лёгкий полноразмерный бронежилет
+  description: Бронежилет 2 класса защищающий торс и плечи.
+  components:
+  - type: Sprite
+    sprite: Clothing/OuterClothing/Armor/riot.rsi
+  - type: Clothing
+    sprite: Clothing/OuterClothing/Armor/riot.rsi
+  - type: Armor
+    modifiers:
+      coefficients:
+        Piercing: 0.5
+        Heat: 0.5
+        Blunt: 0.6
+        Slash: 0.6
+
+- type: entity
+  parent: ClothingOuterArmorMilitaryFullSize1
+  id: ClothingOuterArmorMilitaryFullSize3
+  name: полноразмерный бронежилет
+  description: Бронежилет 3 класса защищающий торс, плечи, живот.
+  components:
+  - type: Sprite
+    sprite: Clothing/OuterClothing/Armor/riot.rsi
+  - type: Clothing
+    sprite: Clothing/OuterClothing/Armor/riot.rsi
+  - type: Armor
+    modifiers:
+      coefficients:
+        Piercing: 0.4
+        Heat: 0.4
+        Blunt: 0.4
+        Slash: 0.4
+
+- type: entity
+  parent: ClothingOuterArmorMilitaryFullSize1
+  id: ClothingOuterArmorMilitaryFullSize4
+  name: полноразмерный бронежилет
+  description: Бронежилет 4 класса защищающий торс, плечи, живот, шею.
+  components:
+  - type: Sprite
+    sprite: Clothing/OuterClothing/Armor/riot.rsi
+  - type: Clothing
+    sprite: Clothing/OuterClothing/Armor/riot.rsi
+  - type: Armor
+    modifiers:
+      coefficients:
+        Piercing: 0.25
+        Heat: 0.3
+        Blunt: 0.3
+        Slash: 0.5
+
+- type: entity
+  parent: ClothingOuterArmorMilitaryFullSize1
+  id: ClothingOuterArmorMilitaryFullSize5
+  name: тяжёлый полноразмерный бронежилет
+  description: Полноразмерный бронежилет, защищает большую часть тела.
+  components:
+  - type: Sprite
+    sprite: Clothing/OuterClothing/Armor/riot.rsi
+  - type: Clothing
+    sprite: Clothing/OuterClothing/Armor/riot.rsi
+  - type: Armor
+    modifiers:
+      coefficients:
+        Piercing: 0.2
+        Heat: 0.2
+        Blunt: 0.2
+        Slash: 0.2
+
+- type: entity
+  parent: ClothingOuterArmorMilitaryFullSize1
+  id: ClothingOuterArmorMilitaryFullSize6
+  name: сверхтяжёлый полноразмерный бронежилет
+  description: Полноразмерный бронежилет, защищает большую часть тела,
+  components:
+  - type: Sprite
+    sprite: Clothing/OuterClothing/Armor/riot.rsi
+  - type: Clothing
+    sprite: Clothing/OuterClothing/Armor/riot.rsi
+  - type: Armor
+    modifiers:
+      coefficients:
+        Piercing: 0.1
+        Heat: 0.1
+        Blunt: 0.1
+        Slash: 0.1
